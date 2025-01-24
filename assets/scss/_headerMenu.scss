@@ -42,16 +42,16 @@
 
 
 .header-area {
-    background: rgba(0, 2, 62, 0);
+    background: rgba(0, 1, 33, 0);
     // Header Top
     @media #{$md}{
-        box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+        box-shadow: 0 10px 15px rgba(25, 25, 25, 0);
     }
     @media #{$sm}{
-        box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+        box-shadow: 0 10px 15px rgba(25, 25, 25, 0);
     }
     @media #{$xs}{
-        box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+        box-shadow: 0 10px 15px rgba(25, 25, 25, 0);
     }
     .header-top{
         border-bottom: 1px solid #3e4160;
@@ -159,14 +159,23 @@
        .small-logo{
            display: none;
             @media #{$lg}{
-               
+
+                .logo-img{
+                    width:100px;
+                   }
             }
             @media #{$xs}{
+                .logo-img{
+                    width:100px;
+                   }
                display:unset;
             }
        }
        .big-logo{
             @media #{$xs}{
+                .logo-img{
+                    width:100px;
+                   }
                 display: none;
             }
        }

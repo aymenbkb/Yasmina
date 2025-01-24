@@ -2223,6 +2223,7 @@ hr {
 }
 .section-tittle .front-text {
   position: relative;
+  padding-bottom: 50px;
   z-index: 2;
 }
 .section-tittle .front-text h2 {
@@ -2534,21 +2535,21 @@ hr {
 }
 
 .header-area {
-  background: rgba(0, 2, 62, 0);
+  background: rgba(0, 1, 33, 0);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header-area {
-    box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+    box-shadow: 0 10px 15px rgba(25, 25, 25, 0);
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .header-area {
-    box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+    box-shadow: 0 10px 15px rgba(25, 25, 25, 0);
   }
 }
 @media (max-width: 575px) {
   .header-area {
-    box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+    box-shadow: 0 10px 15px rgba(25, 25, 25, 0);
   }
 }
 .header-area .header-top {
@@ -2647,14 +2648,25 @@ hr {
 .main-header .logo .small-logo {
   display: none;
 }
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .main-header .logo .small-logo .logo-img {
+    width: 100px;
+  }
+}
 @media (max-width: 575px) {
   .main-header .logo .small-logo {
     display: unset;
+  }
+  .main-header .logo .small-logo .logo-img {
+    width: 100px;
   }
 }
 @media (max-width: 575px) {
   .main-header .logo .big-logo {
     display: none;
+  }
+  .main-header .logo .big-logo .logo-img {
+    width: 100px;
   }
 }
 
@@ -2740,7 +2752,7 @@ hr {
 }
 
 .slider-height {
-  min-height: 900px;
+  min-height: 750px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2848,22 +2860,22 @@ hr {
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .slider-area .hero__caption h1 {
-    font-size: 135px;
+    font-size: 55px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .slider-area .hero__caption h1 {
-    font-size: 110px;
+    font-size: 50px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .slider-area .hero__caption h1 {
-    font-size: 72px;
+    font-size: 45px;
   }
 }
 @media (max-width: 575px) {
   .slider-area .hero__caption h1 {
-    font-size: 42px;
+    font-size: 22px;
   }
 }
 .slider-area .hero__caption .stock-text {
@@ -2939,7 +2951,8 @@ hr {
 }
 @media (max-width: 575px) {
   .slider-area .hero__caption .hero-text1 span, .slider-area .hero__caption .hero-text1 a, .slider-area .hero__caption .hero-text2 span, .slider-area .hero__caption .hero-text2 a {
-    margin-bottom: 20px;
+    font-size: 10px;
+    margin-bottom: -30px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -2978,6 +2991,16 @@ hr {
   right: 0;
   z-index: 0;
   background-repeat: no-repeat;
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .hero-overly::before {
+    height: 100%;
+  }
+}
+@media (max-width: 575px) {
+  .hero-overly::before {
+    height: 100%;
+  }
 }
 
 .slider-area .hero-cap h2 {
@@ -3230,6 +3253,7 @@ hr {
   position: relative;
 }
 .support-company-area .support-wrapper .right-content .right-img img {
+  border-radius: 40px;
   width: 100%;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
@@ -3472,7 +3496,7 @@ hr {
   transition: all 0.7s ease-out 0s;
 }
 .latest-news-area .single-news .news-img .news-date {
-  background: #ff2b2b;
+  background: #c7ae24;
   padding: 15px 34px;
   display: inline-block;
   position: absolute;

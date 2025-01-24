@@ -64,9 +64,11 @@
 		// Right Content
 		.right-content{
 			width: 40%;
+			
 			position: relative;
 			.right-img{
 				img{
+					border-radius: 40px;
 					width: 100%;
 				}
 			}
@@ -171,5 +173,3 @@
 	
 	}
 }
-
-
