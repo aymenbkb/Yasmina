@@ -64,6 +64,7 @@
 		// Right Content
 		.right-content{
 			width: 40%;
+			padding-right: 10px;
 			
 			position: relative;
 			.right-img{
@@ -85,7 +86,7 @@
 				padding-top: 50px;
 			}
 			@media #{$lg}{
-				width: 100%;
+				width: 85%;
 				padding-top: 50px;
 			}
 			@media #{$md}{

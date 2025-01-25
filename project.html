@@ -8,6 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="manifest" href="site.webmanifest">
 		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
 
 		<!-- CSS here -->
             <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -121,20 +122,9 @@
                         <div class="tab-content active" id="nav-tabContent">
                             <div class="team-area section-padding30">
                                 <div class="container">
-                                    <!-- <div class="row">
-                                        <div class="col-xl-12">
-                                           
-                                             <div class="section-tittle section-tittle5 mb-50">
-                                                <div class="front-text">
-                                                    <h2 class="">Our team</h2>
-                                                </div>
-                                                <span class="back-text">exparts</span>
-                                            </div>
-                                        </div>
-                                    </div> -->
                                     <div class="row">
                                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
-                                            <div class="single-team mb-30">
+                                            <div class="single-team mb-30" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                                                 <div class="team-img">
                                                     <img src="assets/img/team/team1.jpg" alt="">
                                                 </div>
@@ -145,7 +135,7 @@
                                             </div>
                                         </div>
                                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
-                                            <div class="single-team mb-30">
+                                            <div class="single-team mb-30" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                                                 <div class="team-img">
                                                     <img src="assets/img/team/team2.jpg" alt="">
                                                 </div>
@@ -156,7 +146,7 @@
                                             </div>
                                         </div>
                                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
-                                            <div class="single-team mb-30">
+                                            <div class="single-team mb-30" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                                                 <div class="team-img">
                                                     <img src="assets/img/team/team3.jpg" alt="">
                                                 </div>
@@ -261,6 +251,10 @@
    
 	<!-- JS here -->
 	
+        <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 		<!-- All JS Custom Plugins Link Here here -->
         <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
 		<!-- Jquery, Popper, Bootstrap -->
