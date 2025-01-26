@@ -2743,6 +2743,7 @@ body.loaded #preloader-active {
   min-height: 590px;
   background-repeat: no-repeat;
   background-position: center center;
+  background-size: cover;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .slider-height2 {
@@ -3034,24 +3035,30 @@ body.loaded #preloader-active {
   }
 }
 
+/* General styling for the service cards */
 .single-service-card {
   background: #fff;
   border: 1px solid #e0e0e0;
   border-radius: 10px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, margin-top 0.3s ease-in-out;
   position: relative;
   margin: 0 20px 40px;
   flex: 1 1 calc(33.333% - 40px);
   box-sizing: border-box;
+  /* Hover effect with margin and scale */
+  /* Hover effects on image */
+  /* Icon for hover - position absolute */
 }
 .single-service-card:hover {
-  transform: translateY(-10px) scale(1.05);
+  margin-top: -15px; /* Move up with margin */
+  scale: 1.05; /* Scale the card slightly */
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: #f3f6ff; /* Color change on hover */
 }
 .single-service-card:hover .card-image img {
-  transform: scale(1.1); /* Scale the image on hover */
+  transform: scale(1.1); /* Scale the image */
 }
 .single-service-card .card-icon {
   position: absolute;
@@ -3069,6 +3076,7 @@ body.loaded #preloader-active {
   z-index: 1;
 }
 
+/* Image container */
 .card-image {
   width: 100%;
   height: 200px;
@@ -3079,13 +3087,15 @@ body.loaded #preloader-active {
   background-color: #f9f9f9;
   transition: transform 0.3s ease;
 }
+
 .card-image img {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
   transition: transform 0.3s ease;
 }
 
+/* Content area */
 .card-content {
   padding: 20px;
   text-align: center;
@@ -3115,6 +3125,7 @@ body.loaded #preloader-active {
   -webkit-box-orient: vertical;
 }
 
+/* Read More button */
 .card-btn {
   display: inline-block;
   font-size: 14px;
@@ -3129,11 +3140,38 @@ body.loaded #preloader-active {
   border-color: #c7ae24;
 }
 
-/* Ensure the container uses flexbox for proper spacing */
+/* Flexbox container */
 .services-area1 .row {
   display: flex;
   flex-wrap: wrap;
   margin: -20px;
+  justify-content: flex-start; /* Align the cards to the left */
+}
+
+/* Responsive adjustments for different screen sizes */
+@media screen and (max-width: 991px) {
+  .single-service-card {
+    flex: 1 1 calc(50% - 40px); /* Two cards per row on medium screens */
+  }
+}
+@media screen and (max-width: 767px) {
+  .single-service-card {
+    flex: 1 1 100%; /* One card per row on small screens */
+  }
+}
+/* Optional: Animating the entire container for an exciting first load */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.single-service-card[data-aos=fade-up] {
+  animation: fadeInUp 1s ease-out;
 }
 
 .support-company-area .support-wrapper {
@@ -3684,7 +3722,7 @@ body.loaded #preloader-active {
 }
 .project-area .project-caption .single-project:hover .plus-btn i, .about-area .project-caption .single-project:hover .plus-btn i, .contact-section .project-caption .single-project:hover .plus-btn i {
   color: #fff;
-  background: #ff5f13;
+  background: #c7ae24;
 }
 .project-area .properties__button, .about-area .properties__button, .contact-section .properties__button {
   float: right;
