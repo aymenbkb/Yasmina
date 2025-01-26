@@ -3145,7 +3145,7 @@ body.loaded #preloader-active {
   display: flex;
   flex-wrap: wrap;
   margin: -20px;
-  justify-content: flex-start; /* Align the cards to the left */
+  justify-content: flex-end; /* Align the cards to the left */
 }
 
 /* Responsive adjustments for different screen sizes */
