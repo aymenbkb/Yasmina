@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Theme Description
 -------------------------------------------------
 
@@ -2022,6 +2023,76 @@ body.loaded #preloader-active {
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.contact {
+  display: flex;
+  position: relative;
+  padding: 50px 0px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact-btn {
+  text-align: center;
+  margin-top: 10px;
+  padding: 30px 50px;
+  background-color: #000000;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Simple Hover Effect */
+.contact-btn:hover {
+  background-color: #c7ae24; /* Darker blue */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+.contact-btn1 {
+  text-align: center;
+  margin-top: 10px;
+  padding: 30px 50px;
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid black;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Simple Hover Effect */
+.contact-btn1:hover {
+  color: white;
+  background-color: #000000; /* Darker blue */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Styled List */
+.styled-list {
+  margin-top: 20px;
+  padding-left: 0;
+  list-style: none;
+  font-size: 16px;
+  color: #333;
+}
+
+.styled-list li {
+  margin-bottom: 15px;
+  position: relative;
+  padding-left: 40px;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.styled-list li::before {
+  content: "✔"; /* Replace with a cool icon if desired */
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 18px;
+  color: #000000;
+  font-weight: bold;
+  animation: popIn 0.5s ease-in-out;
 }
 
 /* Spinner Animation */
@@ -4224,6 +4295,9 @@ body.loaded #preloader-active {
   font-weight: 700;
 }
 
+.single-services {
+  padding: 50px 0px;
+}
 .single-services .details-img img {
   width: 100%;
 }
