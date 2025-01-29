@@ -4242,6 +4242,7 @@ body.loaded #preloader-active {
   font-size: 16px;
   line-height: 2;
   margin-bottom: 12px;
+  margin-right: 20px;
   text-align: end;
 }
 .footer-area .footer-copy-right p i {
