@@ -597,7 +597,7 @@ hr {
     border-left-color: transparent;
     border-radius: 50%;
     animation: spin 1.5s linear infinite;
-    background: #00235b;
+    background: #0e132a;
 }
 
 .preloader .preloader-img {
@@ -867,7 +867,7 @@ body.loaded #preloader-active {
 	&.section-tittle2{
 		.front-text{
 				h2{
-					font-size: 100px;
+					font-size: 70px;
 
 					@media #{$xs}{
 						font-size: 40px;

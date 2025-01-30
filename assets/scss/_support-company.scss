@@ -61,102 +61,151 @@
 				}
 			}
 		}
-		// Right Content
-		.right-content{
+		.right-content {
 			width: 40%;
-			padding-right: 10px;
-			
+			padding-right: 30px;
+			display: flex;
+			justify-content: flex-end;
 			position: relative;
-			.right-img{
-				img{
-					border-radius: 40px;
-					width: 100%;
-				}
-			}
-			@media #{$laptop}{
-				width: 49%;
-			}
-			@media #{$lg}{
-				width: 80%;
-				margin-left: 119px;
-				padding-top: 50px;
-			}
-			@media #{$md}{
-				width: 80%;
-				padding-top: 50px;
-			}
-			@media #{$lg}{
-				width: 85%;
-				padding-top: 50px;
-			}
-			@media #{$md}{
-				width: 100%;
-				padding-top: 50px;
-			}
-			@media #{$sm}{
-				width: 100%;
-				padding-top: 50px;
-			}
-			@media #{$xs}{
-				width: 100%;
-				padding-top: 50px;
-			}
-			.support-img-cap{
-				position: absolute;
-				bottom: 0px;
-				background: #1f2b7b;
-				padding:59px 28px;
-				border-radius: 5px;
-				@media #{$lg}{
-					padding: 27px 18px;
-					// left: -59px;
-				}
-				@media #{$xs}{
-					// left: 0px;
-					padding: 35px 0px;
-				}
-				@media #{$sm}{
-					// left: 0px;
-					padding: 35px 18px;
-				}
-				@media #{$md}{
-					// left: 0px;
-					padding: 35px 18px;
-				}
-				span{
-				
-					font-size: 60px;
-					color:#fff;
-					text-transform: uppercase;
-					font-weight: 700;
-					font-family: $font_1;
-					line-height: 1.2;
-					@media #{$xs}{
-						padding:6px 40px;
-						font-size: 38px;
-					}
-					@media #{$lg}{
-						font-size: 35px;
-					}
-					@media #{$md}{
-						font-size: 35px;
-					}
-					@media #{$sm}{
-						font-size: 35px;
-					}
-
-				}
-				P{
-					color: #fff;
-					line-height: 1;
-					margin: 0;
-					font-size: 16px;
-					text-transform: uppercase;
-					letter-spacing: .5em;
-				}
+		
+			.image-wrapper {
+				position: relative;
+				width: 300px;
+				height: 400px;
 			}
 		
+			.image-wrapper {
+				position: relative;
+				width: 300px;
+				height: 400px;
+			}
+			
+			.image-card {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out, filter 0.8s ease-in-out;
+				box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+			}
+			
+			/* Default Foreground Image */
+			.foreground {
+				z-index: 2;
+				left: -230px;
+				top: -60px;
+				transform: scale(1.08);
+				opacity: 1;
+			}
+			
+			/* Default Background Image */
+			.background {
+				z-index: 1;
+				filter: brightness(50%);
+				cursor: pointer;
+				opacity: 0.85;
+			}
+			
+			/* Swap Effect when Classes are Toggled */
+			.foreground.background {
+				z-index: 1;
+				filter: brightness(50%);
+				cursor: pointer;
+				opacity: 0.85;
+				transform: scale(1);
+			}
+			
+			.background.foreground {
+				z-index: 2;
+				left: -230px;
+				top: -60px;
+				transform: scale(1.08);
+				opacity: 1;
+				filter: none;
+			}
+			
+			/* --- CROSSING LINES --- */
+
+			/* Top-left corner lines for the foreground image */
+			.foreground::before {
+				content: "";
+				position: absolute;
+				top: 10px;
+				left: 10px;
+				width: 60px;
+				height: 2px;
+				background-color: #191a33;
+				transform: rotate(45deg);
+				box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+			}
+
+			.foreground::after {
+				content: "";
+				position: absolute;
+				top: 30px;
+				left: -5px;
+				width: 60px;
+				height: 2px;
+				background-color: #191a33;
+				transform: rotate(-45deg);
+				box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+			}
+
+			/* Bottom-right corner lines for the background image */
+			.background::before {
+				content: "";
+				position: absolute;
+				bottom: 10px;
+				right: 10px;
+				width: 60px;
+				height: 2px;
+				background-color: #191a33;
+				transform: rotate(45deg);
+				box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+			}
+
+			.background::after {
+				content: "";
+				position: absolute;
+				bottom: 30px;
+				right: -50px;
+				width: 60px;
+				height: 2px;
+				background-color: #191a33;
+				transform: rotate(-45deg);
+				box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+			}
+
+		
+			// Small screens adjustments
+			@media #{$md}, #{$sm}, #{$xs} {
+				width: 100%;
+				justify-content: center;
+		
+				.image-wrapper {
+					width: 250px;
+					height: 350px;
+				}
+
+				.image-card{
+					width: 70%;
+					height: 90%;
+				}
+		
+				.foreground {
+					left: 0;
+					top: -20px; // Slightly higher so it doesn’t fully cover background
+					transform: scale(1);
+				}
+		
+				.background {
+					top: 40px; // Moves background image down to keep visibility
+					left: 105px;
+					filter: brightness(60%);
+				}
+			}
 		}
+		
 	}
 }
 
