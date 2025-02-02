@@ -37,47 +37,57 @@
 </div>
 <!-- Preloader End -->
 
-    <header>
-        <!-- Header Start -->
-       <div class="header-area header-transparent">
-            <div class="main-header ">
-               <div class="header-bottom  header-sticky">
-                    <div class="container-fluid">
-                        <div class="row align-items-center justify-content-between">
-                            <!-- Logo -->
-                            <div class="col-xl-2 col-lg-2 col-md-1">
-                                <div class="logo">
-                                    <!-- logo-1 -->
-                                    <a href="index.html" class="big-logo"><img src="assets/img/logo/logo.png" alt=""></a>
-                                    <!-- logo-2 -->
-                                    <a href="index.html" class="small-logo"><img class="logo-img" src="assets/img/logo/loder-logo.png" alt=""></a>
-                                </div>
-                            </div>
-                            <div class="col-xl-8 col-lg-8 col-md-8">
-                                <!-- Main-menu -->
-                                <div class="main-menu f-right d-none d-lg-block">
-                                    <nav> 
-                                        <ul id="navigation">                                                                                                                   
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="project.html">Team</a></li>
-                                            <li><a href="services.html">Services</a></li>
-                                            <li><a href="blog.html">Insight</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>             
-                            <!-- Mobile Menu -->
-                            <div class="col-12">
-                                <div class="mobile_menu d-block d-lg-none"></div>
+<header>
+    <!-- Header Start -->
+    <div class="header-area header-transparent">
+        <div class="main-header">
+            <div class="header-bottom header-sticky">
+                <div class="container-fluid">
+                    <div class="row align-items-center justify-content-between">
+                        <!-- Logo -->
+                        <div class="col-xl-2 col-lg-2 col-md-1">
+                            <div class="logo">
+                                <!-- logo-1 -->
+                                <a href="index.html" class="big-logo"><img src="assets/img/logo/logo.png" alt=""></a>
+                                <!-- logo-2 -->
+                                <a href="index.html" class="small-logo"><img class="logo-img" src="assets/img/logo/loder-logo.png" alt=""></a>
                             </div>
                         </div>
+                        <div class="col-xl-8 col-lg-8 col-md-8">
+                            <!-- Main-menu -->
+                            <div class="main-menu f-right d-none d-lg-block">
+                                <nav>
+                                    <ul id="navigation">
+                                        <li><a href="index.html" data-key="nav-home">Home</a></li>
+                                        <li><a href="project.html" data-key="nav-team">Team</a></li>
+                                        <li><a href="services.html" data-key="nav-services">Services</a></li>
+                                        <li><a href="blog.html" data-key="nav-insight">Insight</a></li>
+                                        <li><a href="contact.html" data-key="nav-contact">Contact</a></li>
+                                        <!-- Language Switcher -->
+                                        <li class="dropdown">
+                                            <a href="javascript:void(0);" class="dropbtn">Language 🌍</a>
+                                            <div class="dropdown-content">
+                                                <a href="#" onclick="changeLanguage('en')"><img src="./assets/img/icon/uk.png" alt="English"> Eng</a>
+                                                <a href="#" onclick="changeLanguage('fr')"><img src="./assets/img/icon/fr.png" alt="Français"> Fra</a>
+                                                <a href="#" onclick="changeLanguage('ar')"><img src="./assets/img/icon/ar.png" alt="العربية"> Arab</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <!-- Mobile Menu -->
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
                     </div>
-               </div>
+                </div>
             </div>
-       </div>
-        <!-- Header End -->
-    </header>
+        </div>
+    </div>
+    <!-- Header End -->
+</header>
+
     <main>
 
         <!-- slider Area Start-->
@@ -92,11 +102,11 @@
                         <div class="row">
                             <div class="col-lg-11">
                                 <div class="hero__caption">
-                                    <h1 data-animation="fadeInUp" data-delay=".5s">
+                                    <h1 data-animation="fadeInUp" data-delay=".5s" data-key="hero-title">
                                         An innovative and client-focused law firm delivering exceptional results.<br>
                                     </h1>
                                     <div class="hero-text2 mt-110" data-animation="fadeInUp" data-delay=".9s">
-                                        <span><a href="services.html">UAE based Firm.
+                                        <span><a data-key="hero-title1" href="services.html">UAE based Firm.
 
                                         </a></span>
                                     </div>
@@ -116,7 +126,7 @@
                   <!-- section tittle -->
                   <div class="section-tittle section-tittle2 mb-55">
                     <div class="front-text">
-                        <h2 class="">Our <br> Services</h2>
+                        <h2 data-key="service-title">Our <br> Services</h2>
                     </div>
                     <span class="back-text">services</span>
                 </div>
@@ -130,7 +140,7 @@
                                         <!--Nav Button  -->                                            
                                         <nav> 
                                             <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                                <a class="nav-item nav-link inactive" href="services.html" role="tab" aria-controls="nav-home" aria-selected="false"> Show  all </a>
+                                                <a class="nav-item nav-link inactive" href="services.html" role="tab" aria-controls="nav-home" aria-selected="false" data-key="service-filter"> Show  all </a>
                                             </div>
                                         </nav>
                                         <!--End Nav Button  -->
@@ -153,7 +163,7 @@
                                                     </div>
                                                     <div class="project-cap">
                                                         <a href="servises/business-uae.html" class="plus-btn"><i class="fas fa-briefcase"></i></a>
-                                                        <h4><a href="servises/business-uae.html">BUSINESS SETUP IN UAE FREE ZONES</a></h4>
+                                                        <h4><a href="servises/business-uae.html" data-key="service1">BUSINESS SETUP IN UAE FREE ZONES</a></h4>
                                                     </div>
                                                 </div>
                                             </div>
@@ -164,7 +174,7 @@
                                                     </div>
                                                     <div class="project-cap">
                                                         <a href="servises/intellectual-law.html" class="plus-btn"><i class="fas fa-heart"></i></a>
-                                                       <h4><a href="servises/intellectual-law.html">INTELLECTUAL PROPERTY LAW</a></h4>
+                                                       <h4><a href="servises/intellectual-law.html" data-key="service2">INTELLECTUAL PROPERTY LAW</a></h4>
                                                     </div>
                                                 </div>
                                             </div>
@@ -175,7 +185,7 @@
                                                     </div>
                                                     <div class="project-cap">
                                                         <a href="servises/criminal-law.html" class="plus-btn"><i class="fas fa-shield-alt"></i></a>
-                                                       <h4><a href="servises/criminal-law.html">CRIMINAL LAW</a></h4>
+                                                       <h4><a href="servises/criminal-law.html" data-key="service3">CRIMINAL LAW</a></h4>
                                                     </div>
                                                 </div>
                                             </div>
@@ -186,7 +196,7 @@
                                                     </div>
                                                     <div class="project-cap">
                                                         <a href="servises/legal-Imegration.html" class="plus-btn"><i class="fas fa-handshake"></i></a>
-                                                       <h4><a href="servises/legal-Imegration.html">IMMIGRATION LAW</a></h4>
+                                                       <h4><a href="servises/legal-Imegration.html" data-key="service4">IMMIGRATION LAW</a></h4>
                                                     </div>
                                                 </div>
                                             </div>
@@ -197,7 +207,7 @@
                                                     </div>
                                                     <div class="project-cap">
                                                         <a href="servises/tax-law.html" class="plus-btn"><i class="fas fa-building"></i></a>
-                                                       <h4><a href="servises/tax-law.html">TAX LAW</a></h4>
+                                                       <h4><a href="servises/tax-law.html" data-key="service5">TAX LAW</a></h4>
                                                     </div>
                                                 </div>
                                             </div>
@@ -208,7 +218,7 @@
                                                     </div>
                                                     <div class="project-cap">
                                                         <a href="servises/wills-law.html" class="plus-btn"><i class="fas fa-home"></i></a>
-                                                       <h4><a href="servises/wills-law.html">WILLS LAW</a></h4>
+                                                       <h4><a href="servises/wills-law.html" data-key="service6">WILLS LAW</a></h4>
                                                     </div>
                                                 </div>
                                             </div>
@@ -230,11 +240,11 @@
             <!-- Section Title -->
             <div class="section-tittle section-tittle2 mb-55">
                 <div class="front-text">
-                    <h2>Who we are</h2>
+                    <h2 data-key="about-qst">Who we are</h2>
                 </div>
             </div>
             <div class="support-caption">
-                <p class="pera-top">Acker Choquette Dray Legal Consultants.</p>
+                <p class="pera-top" data-key="about-text">Acker Choquette Dray Legal Consultants.</p>
                 <p>Our law firm operates out of the Emirate of Dubai, United Arab Emirates, since 1997, under the direction of its founder Mr. Denis Acker and Jordana Dray recently joined as Partner.
                     We provide legal expertise to individual and corporate clients, wishing to establish professional and business activities in the Middle East Region, and to counsel individuals whose intentions are to extend their activities globally.</p>
             </div>
@@ -260,11 +270,11 @@
                                     <!-- Section Tittle -->
                                     <div class="section-tittle section-tittle4">
                                         <div class="front-text">
-                                            <h2 class="">Contact us</h2>
+                                            <h2 class="" data-key="contact-titre">Contact us</h2>
                                         </div>
                                     </div>
-                                    <p>Blending innovative thinking with exceptional client care is the cornerstone of our practice. We strive to serve our clients with care, diligence, openness and responsibility.</p>
-                                    <a href="contact.html" class="white-btn">read more</a>
+                                    <p data-key="contact-text">Blending innovative thinking with exceptional client care is the cornerstone of our practice. We strive to serve our clients with care, diligence, openness and responsibility.</p>
+                                    <a href="contact.html" class="white-btn" data-key="contact-btn">read more</a>
                                 </div>
                             </div>
                         </div>
@@ -282,7 +292,7 @@
                 <!-- Section Tittle -->
                 <div class="section-tittle section-tittle7 mb-50">
                     <div class="front-text">
-                        <h2 class="">Our Latest Updates</h2>
+                        <h2 data-key="news-titre">Our Latest Updates</h2>
                     </div>
                 </div>
             </div>
@@ -293,17 +303,13 @@
             <div class="single-news mb-30" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                 <div class="news-img">
                     <img src="assets/img/david/david_1.png" alt="">
-                    <div class="news-date text-center">
-                        <span>24</span>
-                        <p>Now</p>
-                    </div>
                 </div>
                 <div class="news-caption">
                     <ul class="david-info">
                         <li> | &nbsp; &nbsp;  24 December 2024</li>
                     </ul>
-                    <h2><a href="#">Empowering Global Business: Navigating Markets and Legal Systems Across Borders</a></h2>
-                    <a href="#" class="d-btn">Read more »</a>
+                    <h2><a href="#" data-key="news-text1">Empowering Global Business: Navigating Markets and Legal Systems Across Borders</a></h2>
+                    <a href="#" class="d-btn" data-key="news-btn">Read more »</a>
                 </div>
             </div>
         </div>
@@ -321,8 +327,8 @@
                     <ul class="david-info">
                         <li> | &nbsp; &nbsp;  24 Novembre 2024</li>
                     </ul>
-                    <h2><a href="#">Representing Client Interests: Versatility and Mobility in a Globalized World</a></h2>
-                    <a href="#" class="d-btn">Read more » </a>
+                    <h2><a href="#" data-key="news-text2">Representing Client Interests: Versatility and Mobility in a Globalized World</a></h2>
+                    <a href="#" class="d-btn" data-key="news-btn">Read more » </a>
                 </div>
             </div>
        </div>
@@ -350,14 +356,14 @@
                             </div>
                             <div class="footer-tittle">
                                 <ul>
-                                    <li><strong>Dubai:</strong>Khalid Bin Waleed Road, Bank Street Building, 2nd Floor Office 215, Dubai. PO BOX 21602, United Arab Emirates</li>
-                                    <li>Phone: (+971) 4 355 0004</li>
-                                    <li>Email: <a href="mailto: contact@acd@legallaw.eu"> contact@acd@legallaw.eu</a></li>
+                                    <li data-key="footer-location1"><strong>Dubai:</strong>Khalid Bin Waleed Road, Bank Street Building, 2nd Floor Office 215, Dubai. PO BOX 21602, United Arab Emirates</li>
+                                    <li data-key="footer-phone1">Phone: (+971) 4 355 0004</li>
+                                    <li data-key="footer-email">Email: <a href="mailto: contact@acd@legallaw.eu"> contact@acd@legallaw.eu</a></li>
                                 </ul>
                                 <ul>
-                                    <li><strong>Paris:</strong>39Bis, Boulevard Exelmans, 75016 Paris</li>
-                                    <li>Phone: (+33) 145531996</li>
-                                    <li>Email: <a href="mailto: contact@acd@legallaw.eu"> contact@acd@legallaw.eu</a></li>
+                                    <li data-key="footer-location2"><strong>Paris:</strong>39Bis, Boulevard Exelmans, 75016 Paris</li>
+                                    <li data-key="footer-phone2">Phone: (+33) 145531996</li>
+                                    <li data-key="footer-email">Email: <a href="mailto: contact@acd@legallaw.eu"> contact@acd@legallaw.eu</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -367,12 +373,12 @@
                     <div class="col-lg-2 col-md-4 col-sm-5">
                         <div class="single-footer-caption mb-50">
                             <div class="footer-tittle">
-                                <h4>Quick Links</h4>
+                                <h4 data-key="footer-links-title">Quick Links</h4>
                                 <ul>
-                                    <li><a href="contact.html">Contact Us</a></li>
-                                    <li><a href="project.html">Meet the Team</a></li>
-                                    <li><a href="blog.html">Estimates</a></li>
-                                    <li><a href="#">Our Process</a></li>
+                                    <li><a href="contact.html" data-key="footer-link1">Contact Us</a></li>
+                                    <li><a href="project.html" data-key="footer-link2">Meet the Team</a></li>
+                                    <li><a href="blog.html" data-key="footer-link3">Estimates</a></li>
+                                    <li><a href="#" data-key="footer-link4">Our Process</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -382,9 +388,9 @@
                     <div class="col-lg-3 col-md-4 col-sm-7">
                         <div class="single-footer-caption mb-50">
                             <div class="footer-tittle">
-                                <h4>News</h4>
-                                <p>The UAE Visa Amnesty Programme: A Golden Opportunity to Resolve Residency Issues</p>
-                                <p>September 30, 2024</p>
+                                <h4 data-key="footer-news-title">News</h4>
+                                <p data-key="footer-description">The UAE Visa Amnesty Programme: A Golden Opportunity to Resolve Residency Issues</p>
+                                <p data-key="footer-date">September 30, 2024</p>
                             </div>
                         </div>
                     </div>
@@ -397,7 +403,7 @@
                 <div class="row align-items-center">
                     <div class="col-xl-12">
                         <div class="footer-copy-right">
-                            <p>All rights reserved &copy;2023 Bin Mes'har & Co</p>
+                            <p data-key="footer-copyright">All rights reserved &copy;2025 Acker Choquette Dray Legal Consultants.</p>
                         </div>
                     </div>
                 </div>
@@ -423,6 +429,7 @@
 
 </script>
 	<!-- JS here -->
+        <script src="./assets/js/translate.js"> </script>
         <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
         <script>
             AOS.init();

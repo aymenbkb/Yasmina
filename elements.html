@@ -36,46 +36,55 @@
     </div>
     <!-- Preloader Start -->
 	<header>
-        <!-- Header Start -->
-       <div class="header-area header-transparent">
-            <div class="main-header ">
-               <div class="header-bottom  header-sticky">
-                    <div class="container-fluid">
-                        <div class="row align-items-center justify-content-between">
-                            <!-- Logo -->
-                            <div class="col-xl-2 col-lg-2 col-md-1">
-                                <div class="logo">
-                                    <!-- logo-1 -->
-                                    <a href="index.html" class="big-logo"><img src="assets/img/logo/logo.png" alt=""></a>
-                                    <!-- logo-2 -->
-                                    <a href="index.html" class="small-logo"><img class="logo-img" src="assets/img/logo/loder-logo.png" alt=""></a>
-                                </div>
-                            </div>
-                            <div class="col-xl-8 col-lg-8 col-md-8">
-                                <!-- Main-menu -->
-                                <div class="main-menu f-right d-none d-lg-block">
-                                    <nav> 
-                                        <ul id="navigation">                                                                                                                   
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="project.html">Team</a></li>
-                                            <li><a href="services.html">Services</a></li>
-                                            <li><a href="blog.html">Insight</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>             
-                            <!-- Mobile Menu -->
-                            <div class="col-12">
-                                <div class="mobile_menu d-block d-lg-none"></div>
+    <!-- Header Start -->
+    <div class="header-area header-transparent">
+        <div class="main-header">
+            <div class="header-bottom header-sticky">
+                <div class="container-fluid">
+                    <div class="row align-items-center justify-content-between">
+                        <!-- Logo -->
+                        <div class="col-xl-2 col-lg-2 col-md-1">
+                            <div class="logo">
+                                <!-- logo-1 -->
+                                <a href="index.html" class="big-logo"><img src="assets/img/logo/logo.png" alt=""></a>
+                                <!-- logo-2 -->
+                                <a href="index.html" class="small-logo"><img class="logo-img" src="assets/img/logo/loder-logo.png" alt=""></a>
                             </div>
                         </div>
+                        <div class="col-xl-8 col-lg-8 col-md-8">
+                            <!-- Main-menu -->
+                            <div class="main-menu f-right d-none d-lg-block">
+                                <nav>
+                                    <ul id="navigation">
+                                        <li><a href="index.html" data-key="nav-home">Home</a></li>
+                                        <li><a href="project.html" data-key="nav-team">Team</a></li>
+                                        <li><a href="services.html" data-key="nav-services">Services</a></li>
+                                        <li><a href="blog.html" data-key="nav-insight">Insight</a></li>
+                                        <li><a href="contact.html" data-key="nav-contact">Contact</a></li>
+                                        <!-- Language Switcher -->
+                                        <li class="dropdown">
+                                            <a href="javascript:void(0);" class="dropbtn">Language 🌍</a>
+                                            <div class="dropdown-content">
+                                                <a href="#" onclick="changeLanguage('en')"><img src="./assets/img/icon/uk.png" alt="English"> Eng</a>
+                                                <a href="#" onclick="changeLanguage('fr')"><img src="./assets/img/icon/fr.png" alt="Français"> Fra</a>
+                                                <a href="#" onclick="changeLanguage('ar')"><img src="./assets/img/icon/ar.png" alt="العربية"> Arab</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <!-- Mobile Menu -->
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
                     </div>
-               </div>
+                </div>
             </div>
-       </div>
-        <!-- Header End -->
-    </header>
+        </div>
+    </div>
+    <!-- Header End -->
+</header>
 	<!-- slider Area Start-->
 	<div class="slider-area ">
 		<div class="single-slider hero-overly slider-height2 d-flex align-items-center" data-background="assets/img/hero/about.jpg">

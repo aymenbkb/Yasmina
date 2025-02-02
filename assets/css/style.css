@@ -2629,7 +2629,7 @@ body.loaded #preloader-active {
 .main-header .main-menu ul li a {
   color: #fff;
   font-weight: 500;
-  padding: 39px 19px;
+  padding: 10px 15px;
   display: block;
   font-size: 14px;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -2758,10 +2758,52 @@ body.loaded #preloader-active {
   background-color: #c7ae24 !important;
 }
 
+/* Additional tweak for the dropdown content in the mobile menu */
 .slicknav_nav {
-  margin-top: 0px;
+  margin-top: 0;
+  height: auto !important; /* Force the height to be auto */
+  max-height: none; /* Remove any max-height constraints */
+  overflow: visible; /* Ensure the dropdown menu is fully visible */
+  display: flex; /* Flex layout allows for dynamic content expansion */
 }
 
+/* Ensure dropdown items in mobile fit properly */
+.slicknav_nav li {
+  padding: 10px 0;
+}
+
+.slicknav_nav .slicknav_item {
+  padding: 10px 15px;
+  display: block;
+}
+
+@media (max-width: 991px) {
+  /* Allow mobile menu to expand and fit content */
+  .slicknav_nav {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    height: auto !important; /* Allow the menu to expand to fit its content */
+    overflow: visible; /* Make sure dropdowns and content are not clipped */
+  }
+  /* Adjust dropdown content for mobile */
+  .dropdown-content {
+    width: 100%;
+    top: 50px;
+    box-shadow: none; /* Optional: Remove shadow */
+    max-height: none; /* Ensure dropdown content is fully visible */
+    padding: 10px 0;
+  }
+  .dropdown {
+    width: 100%;
+  }
+  .dropbtn {
+    padding: 12px 16px;
+    font-size: 14px;
+    width: auto;
+    text-align: center;
+  }
+}
 .header-area .slicknav_btn {
   top: -45px;
 }
@@ -2780,9 +2822,112 @@ body.loaded #preloader-active {
   position: absolute;
   right: 0px;
   width: 100%;
+  height: auto;
   z-index: 99;
 }
 
+/* General Styles for Language Switcher */
+.dropdown {
+  display: inline-block;
+  position: relative;
+  margin-left: 20px; /* Add space between menu items */
+}
+
+.dropbtn {
+  background-color: transparent; /* Remove background color */
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 24px;
+  border: 2px solid transparent;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: 600;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.dropbtn:hover {
+  color: #fff;
+  border-color: #c7ae24; /* Hover effect */
+}
+
+/* Dropdown Content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #191a33;
+  width: 150px;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+  z-index: 10000; /* Increase z-index to ensure it stays on top */
+  top: 100%;
+  left: 0;
+  border-radius: 15px;
+  border: 2px solid #ffffff;
+}
+
+.dropdown-content a {
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.dropdown-content a:hover {
+  background-color: #4CAF50;
+}
+
+.dropdown-content img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+/* Show dropdown when hovering or clicking */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Mobile View Adjustments */
+@media (max-width: 991px) {
+  .main-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .dropdown {
+    margin-left: 0;
+    padding: 5px;
+  }
+  /* Mobile Button for Language Switcher */
+  .dropbtn {
+    padding: 12px 16px;
+    font-size: 14px;
+    width: auto;
+    text-align: center;
+  }
+  .dropdown-content {
+    width: 100%;
+    top: 50px;
+    left: 0;
+  }
+}
+@media (max-width: 768px) {
+  .main-menu {
+    flex-direction: column;
+  }
+  .dropdown {
+    margin-left: 0;
+    width: 100%;
+  }
+  .dropdown-content {
+    width: 100%;
+  }
+}
 .slider-height {
   min-height: 750px;
   background-repeat: no-repeat;
