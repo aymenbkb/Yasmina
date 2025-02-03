@@ -16,6 +16,15 @@ const translations = {
         "service-filter3": "Civil",
         "service-filter4": "Specialized",
         "service1": "Business Setup in UAE Free Zones",
+        "service1-description": "Business establishment in the Free Zones of the UAE provides a streamlined framework for foreign investors to set up and operate companies. These zones offer 100% foreign ownership, tax exemptions, simplified registration processes, and access to world-class infrastructure. Businesses benefit from tailored regulations designed to encourage innovation, attract global talent, and foster economic growth in a competitive environment.",
+        "service1-key": "Key benefits of setting up in UAE Free Zones include:",
+        "service1-benefit1": "100% Foreign Ownership: Enjoy full control of your business without the need for a local sponsor.",
+        "service1-benefit2": "Tax Exemptions: Benefit from exemptions on corporate taxes and personal income taxes for a set period.",
+        "service1-benefit3": "Simplified Registration: Quick and easy company formation processes with minimal bureaucracy.",
+        "service1-benefit4": "World-Class Infrastructure: Access to state-of-the-art facilities and business environments.",
+        "service1-benefit5": "Tailored Regulations: Free Zones are designed to foster innovation, economic growth, and attract global talent.",
+        "service1-benefit6": "Strategic Location: Situated in key locations offering access to international markets, especially in logistics and trade.",
+        "service1-content": "At Acker Choquette Dray Legal Consultants, we offer expert guidance for setting up businesses in the UAE's Free Zones. Whether you're looking to establish a new company, register your business, or ensure full legal compliance, our team provides tailored solutions to help you navigate the process efficiently. We offer in-depth knowledge of Free Zone regulations, tax benefits, and strategic advice on choosing the best Free Zone to suit your business needs. Let us guide you to success and ensure a smooth, compliant entry into the UAE market.",
         "service2": "Intellectual Property Law",
         "service3": "Criminal Law",
         "service4": "Immigration Law",
@@ -67,7 +76,8 @@ const translations = {
         "name": "Enter your name",
         "email": "Enter email address",
         "subject": "Enter Subject",
-        "submit": "Send"
+        "submit": "Send",
+        "web-visit": "Visit Website"
     },
     fr: {
         "switch": "Langue",
@@ -86,6 +96,15 @@ const translations = {
         "service-filter3": "Civil",
         "service-filter4": "Spécialisé",
         "service1": "Création d'entreprise dans les zones franches des Émirats",
+        "service1-description": "L'établissement d'une entreprise dans les zones franches des Émirats Arabes Unis offre un cadre simplifié pour les investisseurs étrangers souhaitant créer et exploiter des sociétés. Ces zones permettent une propriété étrangère à 100 %, des exonérations fiscales, des procédures d'enregistrement simplifiées et un accès à des infrastructures de classe mondiale. Les entreprises bénéficient de réglementations adaptées visant à encourager l'innovation, attirer les talents mondiaux et favoriser la croissance économique dans un environnement compétitif.",
+        "service1-key": "Les principaux avantages de l'établissement en zones franches aux Émirats Arabes Unis comprennent :",
+        "service1-benefit1": "Propriété étrangère à 100 % : Profitez d'un contrôle total de votre entreprise sans avoir besoin d'un sponsor local.",
+        "service1-benefit2": "Exonérations fiscales : Bénéficiez d'exemptions d'impôt sur les sociétés et d'impôt sur le revenu personnel pour une période déterminée.",
+        "service1-benefit3": "Enregistrement simplifié : Processus de création d'entreprise rapide et facile avec une bureaucratie minimale.",
+        "service1-benefit4": "Infrastructure de classe mondiale : Accès à des installations et environnements d'affaires à la pointe de la technologie.",
+        "service1-benefit5": "Réglementation adaptée : Les zones franches sont conçues pour favoriser l'innovation, la croissance économique et attirer des talents mondiaux.",
+        "service1-benefit6": "Emplacement stratégique : Situé dans des zones clés offrant un accès aux marchés internationaux, notamment en logistique et commerce.",
+        "service1-content": "Chez Acker Choquette Dray Legal Consultants, nous offrons une expertise pour la création d'entreprises dans les zones franches des Émirats Arabes Unis. Que vous souhaitiez établir une nouvelle société, enregistrer votre entreprise ou garantir une conformité juridique complète, notre équipe propose des solutions adaptées pour vous aider à naviguer efficacement dans le processus. Nous fournissons des conseils stratégiques sur la réglementation des zones franches, les avantages fiscaux et le choix de la meilleure zone pour votre entreprise. Laissez-nous vous guider vers le succès et garantir une entrée fluide et conforme sur le marché des Émirats Arabes Unis.",
         "service2": "Droit de la propriété intellectuelle",
         "service3": "Droit pénal",
         "service4": "Droit de l'immigration",
@@ -137,7 +156,8 @@ const translations = {
         "name": "Entrez votre nom",
         "email": "Entrez l'adresse e-mail",
         "subject": "Entrez le sujet",
-        "submit": "Envoyer"
+        "submit": "Envoyer",
+        "web-visit": "Visitez le site web"
     },
     ar: {
         "switch": "اللغة",
@@ -156,6 +176,15 @@ const translations = {
         "service-filter3": "مدني",
         "service-filter4": "متخصص",
         "service1": "تأسيس الأعمال في المناطق الحرة في الإمارات",
+        "service1-description": "يوفر إنشاء الأعمال في المناطق الحرة في الإمارات العربية المتحدة إطارًا مبسطًا للمستثمرين الأجانب لتأسيس وتشغيل الشركات. توفر هذه المناطق ملكية أجنبية بنسبة 100٪، وإعفاءات ضريبية، وإجراءات تسجيل مبسطة، وإمكانية الوصول إلى بنية تحتية عالمية المستوى. تستفيد الشركات من لوائح مصممة خصيصًا لتعزيز الابتكار، وجذب المواهب العالمية، ودعم النمو الاقتصادي في بيئة تنافسية.",
+        "service1-key": "تشمل الفوائد الرئيسية لتأسيس الأعمال في المناطق الحرة في الإمارات العربية المتحدة ما يلي:",
+        "service1-benefit1": "ملكية أجنبية 100%: استمتع بالتحكم الكامل في عملك دون الحاجة إلى راعٍ محلي.",
+        "service1-benefit2": "إعفاءات ضريبية: الاستفادة من الإعفاءات على ضرائب الشركات والضرائب الشخصية لفترة محددة.",
+        "service1-benefit3": "تسجيل مبسط: عمليات تأسيس الشركات سريعة وسهلة مع الحد الأدنى من الإجراءات البيروقراطية.",
+        "service1-benefit4": "بنية تحتية عالمية المستوى: الوصول إلى مرافق وبيئات أعمال متطورة.",
+        "service1-benefit5": "لوائح مخصصة: تم تصميم المناطق الحرة لتعزيز الابتكار والنمو الاقتصادي وجذب المواهب العالمية.",
+        "service1-benefit6": "موقع استراتيجي: تقع في مواقع رئيسية توفر الوصول إلى الأسواق الدولية، خاصة في مجال الخدمات اللوجستية والتجارة.",
+        "service1-details": "في Acker Choquette Dray Legal Consultants، نقدم إرشادات خبراء لإنشاء الأعمال في المناطق الحرة في الإمارات العربية المتحدة. سواء كنت تبحث عن تأسيس شركة جديدة، أو تسجيل عملك، أو ضمان الامتثال القانوني الكامل، فإن فريقنا يوفر حلولًا مخصصة لمساعدتك في التنقل بكفاءة في العملية. نقدم معرفة معمقة بلوائح المناطق الحرة، والمزايا الضريبية، ونصائح استراتيجية لاختيار أفضل منطقة حرة تناسب احتياجات عملك. دعنا نرشدك نحو النجاح ونضمن دخولًا سلسًا ومتوافقًا إلى سوق الإمارات العربية المتحدة.",
         "service2": "قانون الملكية الفكرية",
         "service3": "القانون الجنائي",
         "service4": "قانون الهجرة",
@@ -207,7 +236,8 @@ const translations = {
         "name": "أدخل اسمك",
         "email": "أدخل عنوان البريد الإلكتروني",
         "subject": "أدخل الموضوع",
-        "submit": "إرسال"
+        "submit": "إرسال",
+        "web-visit": "قم بزيارة الموقع"
     }
 };
 
