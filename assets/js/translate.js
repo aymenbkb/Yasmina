@@ -27,9 +27,27 @@ const translations = {
         "service1-content": "At Acker Choquette Dray Legal Consultants, we offer expert guidance for setting up businesses in the UAE's Free Zones. Whether you're looking to establish a new company, register your business, or ensure full legal compliance, our team provides tailored solutions to help you navigate the process efficiently. We offer in-depth knowledge of Free Zone regulations, tax benefits, and strategic advice on choosing the best Free Zone to suit your business needs. Let us guide you to success and ensure a smooth, compliant entry into the UAE market.",
         "service2": "Intellectual Property Law",
         "service3": "Criminal Law",
+        "service3-key": "Key areas of our criminal law services include:",
+        "service3-description": "Our criminal law and compliance services in the UAE are designed to provide expert guidance and robust defense. With a deep understanding of the complexities of UAE criminal law and the Dubai justice system, our team of seasoned lawyers ensures comprehensive support throughout every stage of your case. From sound legal advice to developing effective, tailored defense strategies, we are committed to protecting your rights and achieving the best possible outcomes.",
+        "service3-item1": "Criminal Defense: Representing clients in criminal cases to safeguard their rights and ensure a fair trial.",
+        "service3-item2": "Legal Advice: Providing expert legal counsel on criminal matters to help clients understand their options.",
+        "service3-item3": "Investigation Support: Assisting in the investigation phase by ensuring all evidence is handled properly and fairly.",
+        "service3-item4": "Appeals: Representing clients in appeals to challenge unfair convictions or sentences.",
+        "service3-item5": "Compliance: Ensuring compliance with UAE laws, regulations, and procedures throughout the criminal process.",
+        "service3-item6": "Case Management: Offering complete support throughout the legal process, from arrest to trial and sentencing.",
+        "service3-content": "At Acker Choquette Dray Legal Consultants, we specialize in criminal law, offering expert defense strategies and legal advice in the UAE. Our experienced legal team is committed to providing robust representation in criminal cases, whether you're facing charges or need assistance with compliance issues. We guide clients through every stage of the criminal justice process, ensuring that their rights are protected and their best interests are upheld. Let us help you navigate the complexities of criminal law in the UAE and achieve the most favorable outcome possible.",
         "service4": "Immigration Law",
         "service5": "Tax Law",
         "service6": "Wills Law",
+        "service6": "Wills Law",
+        "service6-description": "Wills Law covers the legal process of drafting a will, ensuring that your assets are distributed according to your wishes after your passing. In the UAE, a will must comply with both local and international regulations to be legally recognized. Our expert team provides assistance in drafting wills that ensure your estate is handled smoothly, minimizing potential disputes and ensuring that your family is provided for according to your intentions.",
+        "service6-key": "Key Areas of Wills Law Include:",
+        "service6-item1": "Drafting a Valid Will: Ensuring your will adheres to local and international legal standards.",
+        "service6-item2": "Inheritance Laws: Understanding how assets are passed to heirs in accordance with UAE laws.",
+        "service6-item3": "Guardianship for Minors: Specifying guardianship arrangements for your children in case of your passing.",
+        "service6-item4": "Dispute Resolution: Offering assistance with potential family disagreements regarding the inheritance of assets.",
+        "service6-item5": "Asset Protection: Structuring your will to protect assets and reduce tax liabilities for heirs.",
+        "service6-content": "We offer expert assistance with wills and inheritance laws in the UAE through a seamless e-service platform. We ensure your assets are protected and your wishes are honored, adhering to both local and international regulations. Our team provides tailored solutions, guiding you through the legal requirements with efficiency and confidentiality, offering peace of mind for you and your loved ones.",
         "service7": "ARBITRATION & DISPUTE RESOLUTION",
         "service7-description":"Arbitration Law governs the process of resolving disputes outside of traditional courts, where parties agree to submit their conflict to one or more neutral arbitrators whose decision (award) is legally binding. It provides a framework for arbitration agreements, the conduct of proceedings, and enforcement of arbitral awards, ensuring efficiency, fairness, and finality in dispute resolution.",
         "service7-key":"Key areas that arbitration Law include:",
@@ -107,9 +125,26 @@ const translations = {
         "service1-content": "Chez Acker Choquette Dray Legal Consultants, nous offrons une expertise pour la création d'entreprises dans les zones franches des Émirats Arabes Unis. Que vous souhaitiez établir une nouvelle société, enregistrer votre entreprise ou garantir une conformité juridique complète, notre équipe propose des solutions adaptées pour vous aider à naviguer efficacement dans le processus. Nous fournissons des conseils stratégiques sur la réglementation des zones franches, les avantages fiscaux et le choix de la meilleure zone pour votre entreprise. Laissez-nous vous guider vers le succès et garantir une entrée fluide et conforme sur le marché des Émirats Arabes Unis.",
         "service2": "Droit de la propriété intellectuelle",
         "service3": "Droit pénal",
+        "service3-key": "Les domaines clés de droit pénal comprennent :",
+        "service3-description": "Nos services en droit pénal et conformité aux Émirats Arabes Unis sont conçus pour fournir des conseils d'experts et une défense solide. Avec une compréhension approfondie des complexités du droit pénal des Émirats et du système judiciaire de Dubaï, notre équipe d'avocats expérimentés assure un soutien complet à chaque étape de votre affaire. De la consultation juridique à l'élaboration de stratégies de défense efficaces et adaptées, nous nous engageons à protéger vos droits et à obtenir les meilleurs résultats possibles.",
+        "service3-key": "Les domaines clés de nos services en droit pénal comprennent :",
+        "service3-item1": "Défense pénale : Représentation des clients dans des affaires pénales pour garantir un procès équitable et protéger leurs droits.",
+        "service3-item2": "Conseils juridiques : Fournir des conseils juridiques d'experts sur les affaires pénales afin d'aider les clients à comprendre leurs options.",
+        "service3-item3": "Soutien aux enquêtes : Assistance lors de la phase d'enquête en veillant à ce que toutes les preuves soient traitées correctement et équitablement.",
+        "service3-item4": "Appels : Représentation des clients lors d'appels pour contester des condamnations ou des peines injustes.",
+        "service3-item5": "Conformité : Assurer le respect des lois, réglementations et procédures des Émirats tout au long du processus pénal.",
+        "service3-item6": "Gestion des affaires : Soutien complet tout au long du processus judiciaire, de l'arrestation au procès et à la condamnation.",
         "service4": "Droit de l'immigration",
         "service5": "Droit fiscal",
         "service6": "Droit des testaments",
+        "service6-description": "Le droit des testaments couvre le processus juridique de rédaction d'un testament, garantissant que vos biens sont distribués selon vos souhaits après votre décès. Aux Émirats Arabes Unis, un testament doit être conforme aux réglementations locales et internationales pour être reconnu légalement. Notre équipe d'experts vous assiste dans la rédaction de testaments afin d'assurer la gestion fluide de votre patrimoine, minimiser les litiges potentiels et garantir que votre famille est prise en charge selon vos intentions.",
+        "service6-key": "Principaux aspects du droit des testaments :",
+        "service6-item1": "Rédaction d'un testament valide : S'assurer que votre testament respecte les normes légales locales et internationales.",
+        "service6-item2": "Législation sur l'héritage : Comprendre comment les biens sont transmis aux héritiers conformément aux lois des Émirats Arabes Unis.",
+        "service6-item3": "Tutelle des mineurs : Spécifier les arrangements de tutelle pour vos enfants en cas de décès.",
+        "service6-item4": "Résolution des litiges : Assistance en cas de désaccords familiaux concernant l'héritage des biens.",
+        "service6-item5": "Protection des actifs : Structuration de votre testament pour protéger les biens et réduire les charges fiscales des héritiers.",
+        "service6-content": "Nous offrons une assistance experte en matière de testaments et de droit des successions aux Émirats Arabes Unis via une plateforme de services électroniques fluide. Nous veillons à ce que vos biens soient protégés et que vos souhaits soient respectés, conformément aux réglementations locales et internationales. Notre équipe propose des solutions personnalisées, vous guidant à travers les exigences légales avec efficacité et confidentialité, pour vous offrir, ainsi qu'à vos proches, une tranquillité d'esprit.",
         "service7": "Arbitrage et résolution des litiges",
         "service7-description": "Le droit de l'arbitrage régit le processus de résolution des litiges en dehors des tribunaux traditionnels, où les parties acceptent de soumettre leur conflit à un ou plusieurs arbitres neutres dont la décision (sentence) est juridiquement contraignante. Il fournit un cadre pour les accords d'arbitrage, le déroulement des procédures et l'exécution des sentences arbitrales, garantissant efficacité, équité et finalité dans la résolution des litiges.",
         "service7-key": "Les domaines clés du droit de l'arbitrage comprennent :", 
@@ -187,9 +222,27 @@ const translations = {
         "service1-details": "في Acker Choquette Dray Legal Consultants، نقدم إرشادات خبراء لإنشاء الأعمال في المناطق الحرة في الإمارات العربية المتحدة. سواء كنت تبحث عن تأسيس شركة جديدة، أو تسجيل عملك، أو ضمان الامتثال القانوني الكامل، فإن فريقنا يوفر حلولًا مخصصة لمساعدتك في التنقل بكفاءة في العملية. نقدم معرفة معمقة بلوائح المناطق الحرة، والمزايا الضريبية، ونصائح استراتيجية لاختيار أفضل منطقة حرة تناسب احتياجات عملك. دعنا نرشدك نحو النجاح ونضمن دخولًا سلسًا ومتوافقًا إلى سوق الإمارات العربية المتحدة.",
         "service2": "قانون الملكية الفكرية",
         "service3": "القانون الجنائي",
+        "service3-description": "تم تصميم خدماتنا في القانون الجنائي والامتثال في الإمارات العربية المتحدة لتقديم إرشادات خبراء ودفاع قوي. بفضل الفهم العميق لتعقيدات القانون الجنائي الإماراتي ونظام العدالة في دبي، يضمن فريقنا من المحامين ذوي الخبرة الدعم الشامل في كل مرحلة من مراحل قضيتك. بدءًا من تقديم المشورة القانونية إلى تطوير استراتيجيات دفاع فعالة ومخصصة، نحن ملتزمون بحماية حقوقك وتحقيق أفضل النتائج الممكنة.",
+        "service3-key": "تشمل المجالات الرئيسية لخدماتنا في القانون الجنائي ما يلي:",
+        "service3-item1": "الدفاع الجنائي: تمثيل العملاء في القضايا الجنائية لحماية حقوقهم وضمان محاكمة عادلة.",
+        "service3-item2": "المشورة القانونية: تقديم استشارات قانونية متخصصة في القضايا الجنائية لمساعدة العملاء على فهم خياراتهم.",
+        "service3-item3": "دعم التحقيق: المساعدة في مرحلة التحقيق من خلال ضمان التعامل مع جميع الأدلة بشكل صحيح وعادل.",
+        "service3-item4": "الاستئنافات: تمثيل العملاء في الاستئنافات للطعن في الإدانات أو الأحكام غير العادلة.",
+        "service3-item5": "الامتثال: ضمان الامتثال لقوانين الإمارات العربية المتحدة ولوائحها وإجراءاتها طوال العملية الجنائية.",
+        "service3-item6": "إدارة القضايا: تقديم دعم شامل طوال العملية القانونية، من الاعتقال إلى المحاكمة وإصدار الأحكام.",
+        "service3-content": "في Acker Choquette Dray Legal Consultants، نحن متخصصون في القانون الجنائي، حيث نقدم استراتيجيات دفاعية متخصصة ومشورة قانونية في الإمارات العربية المتحدة. يلتزم فريقنا القانوني ذو الخبرة بتقديم تمثيل قوي في القضايا الجنائية، سواء كنت تواجه اتهامات أو تحتاج إلى مساعدة في مسائل الامتثال. نوجه عملاءنا خلال كل مرحلة من مراحل العملية القضائية الجنائية، ونضمن حماية حقوقهم والحفاظ على مصالحهم. دعنا نساعدك في التعامل مع تعقيدات القانون الجنائي في الإمارات وتحقيق أفضل نتيجة ممكنة.",
         "service4": "قانون الهجرة",
         "service5": "قانون الضرائب",
         "service6": "قانون الوصايا",
+        "service6": "قانون الوصايا",
+        "service6-description": "يغطي قانون الوصايا العملية القانونية لصياغة وصية، مما يضمن توزيع أصولك وفقًا لرغباتك بعد وفاتك. في الإمارات العربية المتحدة، يجب أن تمتثل الوصية للوائح المحلية والدولية حتى يتم الاعتراف بها قانونيًا. يقدم فريقنا المتخصص المساعدة في صياغة الوصايا لضمان إدارة ممتلكاتك بسلاسة، وتقليل النزاعات المحتملة، وضمان رعاية عائلتك وفقًا لنياتك.",
+        "service6-key": "المجالات الرئيسية لقانون الوصايا تشمل:",
+        "service6-item1": "صياغة وصية صالحة: ضمان امتثال وصيتك للمعايير القانونية المحلية والدولية.",
+        "service6-item2": "قوانين الميراث: فهم كيفية انتقال الأصول إلى الورثة وفقًا لقوانين الإمارات العربية المتحدة.",
+        "service6-item3": "الوصاية على القاصرين: تحديد ترتيبات الوصاية لأطفالك في حالة وفاتك.",
+        "service6-item4": "حل النزاعات: تقديم المساعدة في حالات النزاعات العائلية المحتملة حول توزيع الميراث.",
+        "service6-item5": "حماية الأصول: هيكلة وصيتك لحماية الأصول وتقليل الالتزامات الضريبية للورثة.",
+        "service6-content": "نقدم مساعدة متخصصة في قوانين الوصايا والميراث في الإمارات العربية المتحدة من خلال منصة إلكترونية سلسة. نضمن حماية أصولك والالتزام برغباتك وفقًا للوائح المحلية والدولية. يوفر فريقنا حلولًا مخصصة، ويوجهك خلال المتطلبات القانونية بكفاءة وسرية، مما يوفر راحة البال لك ولأحبائك.",
         "service7": "التحكيم وحل النزاعات",
         "service7-description": "ينظم قانون التحكيم عملية تسوية النزاعات خارج المحاكم التقليدية، حيث يوافق الأطراف على إحالة نزاعهم إلى محكم واحد أو أكثر محايدين، يكون قرارهم (الحكم) ملزمًا قانونيًا. يوفر إطارًا للاتفاقيات التحكيمية، وسير الإجراءات، وإنفاذ الأحكام التحكيمية، مما يضمن الكفاءة والعدالة والحسم في تسوية النزاعات.",
         "service7-key": "تشمل المجالات الرئيسية لقانون التحكيم:",
@@ -242,9 +295,15 @@ const translations = {
 };
 
 function changeLanguage(lang) {
+    // Store selected language in localStorage
+    localStorage.setItem("selectedLanguage", lang);
+
+    // Apply the translation to all elements with a data-key
     document.querySelectorAll("[data-key]").forEach(element => {
         const key = element.getAttribute("data-key");
-        element.textContent = translations[lang][key];
+        if (translations[lang] && translations[lang][key]) {
+            element.textContent = translations[lang][key];
+        }
     });
 
     // Apply RTL styles when Arabic is selected
@@ -256,3 +315,12 @@ function changeLanguage(lang) {
         document.body.style.textAlign = "left";
     }
 }
+
+// Function to apply the saved language when the page loads
+function applySavedLanguage() {
+    let savedLanguage = localStorage.getItem("selectedLanguage") || "en"; // Default to English
+    changeLanguage(savedLanguage);
+}
+
+// Run the function on page load
+document.addEventListener("DOMContentLoaded", applySavedLanguage);
