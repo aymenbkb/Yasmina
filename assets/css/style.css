@@ -1,4 +1,15 @@
 @charset "UTF-8";
+
+[lang="ar"] {
+  direction: rtl;
+  text-align: right;
+}
+
+[lang="en"], [lang="fr"] {
+  direction: ltr;
+  text-align: left;
+}
+
 /* Theme Description
 -------------------------------------------------
 

@@ -1,5 +1,6 @@
 const translations = {
     en: {
+        "switch": "Language",
         "nav-home": "Home",
         "nav-team": "Team",
         "nav-services": "Services",
@@ -21,6 +22,14 @@ const translations = {
         "service5": "Tax Law",
         "service6": "Wills Law",
         "service7": "ARBITRATION & DISPUTE RESOLUTION",
+        "service7-description":"Arbitration Law governs the process of resolving disputes outside of traditional courts, where parties agree to submit their conflict to one or more neutral arbitrators whose decision (award) is legally binding. It provides a framework for arbitration agreements, the conduct of proceedings, and enforcement of arbitral awards, ensuring efficiency, fairness, and finality in dispute resolution.",
+        "service7-key":"Key areas that arbitration Law include:",
+        "service7-item1": "Arbitration Expertise: Our team of experienced and bilingual lawyers specializes in arbitration procedures and proceedings both within and outside the UAE.",
+        "service7-item2": "Property Disputes: Successfully handling claims related to property disputes.",
+        "service7-item3": "Civil and Commercial Disputes: Expertise in resolving civil and commercial disputes through arbitration.",
+        "service7-item4": "Dubai International Arbitration Centre (DIAC): Extensive experience disputing claims at DIAC.",
+        "service7-item5": "Other Arbitration Centres: Proficient in handling cases at various arbitration centres within the UAE.",
+        "service7-content":"Our bilingual legal team specializes in arbitration law both within and beyond the UAE. We bring extensive expertise in representing clients in arbitration proceedings, including property disputes, civil matters, and commercial claims. Our proven track record includes successful cases at leading institutions such as the Dubai International Arbitration Centre (DIAC) and other recognized arbitration centers. Whether drafting arbitration agreements or representing you in complex proceedings, we are dedicated to achieving favorable outcomes with efficiency and professionalism.",
         "service8": "FAMILY LAW",
         "service9": "CORPORATE LAW",
         "service10": "COMMERCIAL LAW",
@@ -61,6 +70,7 @@ const translations = {
         "submit": "Send"
     },
     fr: {
+        "switch": "Langue",
         "nav-home": "Accueil",
         "nav-team": "Équipe",
         "nav-services": "Services",
@@ -82,6 +92,14 @@ const translations = {
         "service5": "Droit fiscal",
         "service6": "Droit des testaments",
         "service7": "Arbitrage et résolution des litiges",
+        "service7-description": "Le droit de l'arbitrage régit le processus de résolution des litiges en dehors des tribunaux traditionnels, où les parties acceptent de soumettre leur conflit à un ou plusieurs arbitres neutres dont la décision (sentence) est juridiquement contraignante. Il fournit un cadre pour les accords d'arbitrage, le déroulement des procédures et l'exécution des sentences arbitrales, garantissant efficacité, équité et finalité dans la résolution des litiges.",
+        "service7-key": "Les domaines clés du droit de l'arbitrage comprennent :", 
+        "service7-item1": "Expertise en arbitrage : Notre équipe d'avocats expérimentés et bilingues est spécialisée dans les procédures et processus d'arbitrage aux Émirats Arabes Unis et à l'international.",
+        "service7-item2": "Litiges immobiliers : Gestion réussie des réclamations liées aux litiges immobiliers.",
+        "service7-item3": "Litiges civils et commerciaux : Expertise dans la résolution des litiges civils et commerciaux par arbitrage.",
+        "service7-item4": "Centre d'arbitrage international de Dubaï (DIAC) : Expérience approfondie des litiges au DIAC.",
+        "service7-item5": "Autres centres d'arbitrage : Compétence dans la gestion des affaires auprès de divers centres d'arbitrage aux Émirats Arabes Unis.",
+        "service7-content": "Notre équipe juridique bilingue est spécialisée en droit de l'arbitrage, aussi bien aux Émirats arabes unis qu'à l'international. Nous possédons une expertise approfondie dans la représentation des clients lors de procédures d'arbitrage, couvrant les litiges immobiliers, civils et commerciaux. Notre solide expérience inclut des affaires réussies devant des institutions de premier plan telles que le Centre d'Arbitrage International de Dubaï (DIAC) et d'autres centres d'arbitrage reconnus. Que ce soit pour la rédaction d'accords d'arbitrage ou la représentation dans des procédures complexes, nous nous engageons à obtenir des résultats favorables avec efficacité et professionnalisme.",
         "service8": "Droit de la famille",
         "service9": "Droit des sociétés",
         "service10": "Droit commercial",
@@ -122,6 +140,7 @@ const translations = {
         "submit": "Envoyer"
     },
     ar: {
+        "switch": "اللغة",
         "nav-home": "الرئيسية",
         "nav-team": "الفريق",
         "nav-services": "الخدمات",
@@ -143,6 +162,14 @@ const translations = {
         "service5": "قانون الضرائب",
         "service6": "قانون الوصايا",
         "service7": "التحكيم وحل النزاعات",
+        "service7-description": "ينظم قانون التحكيم عملية تسوية النزاعات خارج المحاكم التقليدية، حيث يوافق الأطراف على إحالة نزاعهم إلى محكم واحد أو أكثر محايدين، يكون قرارهم (الحكم) ملزمًا قانونيًا. يوفر إطارًا للاتفاقيات التحكيمية، وسير الإجراءات، وإنفاذ الأحكام التحكيمية، مما يضمن الكفاءة والعدالة والحسم في تسوية النزاعات.",
+        "service7-key": "تشمل المجالات الرئيسية لقانون التحكيم:",
+        "service7-item1": "خبرة في التحكيم: يتخصص فريقنا من المحامين ذوي الخبرة والمتحدثين بلغتين في إجراءات التحكيم داخل وخارج الإمارات العربية المتحدة.",
+        "service7-item2": "نزاعات الملكية: التعامل بنجاح مع المطالبات المتعلقة بنزاعات الملكية.",
+        "service7-item3": "النزاعات المدنية والتجارية: خبرة في حل النزاعات المدنية والتجارية من خلال التحكيم.",
+        "service7-item4": "مركز دبي للتحكيم الدولي (DIAC): خبرة واسعة في النزاعات المقدمة إلى DIAC.",
+        "service7-item5": "مراكز تحكيم أخرى: الكفاءة في التعامل مع القضايا في مختلف مراكز التحكيم داخل الإمارات العربية المتحدة.",
+        "service7-content": "يتخصص فريقنا القانوني الثنائي اللغة في قانون التحكيم داخل وخارج الإمارات العربية المتحدة. نحن نقدم خبرة واسعة في تمثيل العملاء في إجراءات التحكيم، بما في ذلك نزاعات الملكية، القضايا المدنية، والمطالبات التجارية. تشمل سجلاتنا الناجحة قضايا تمت معالجتها بنجاح في مؤسسات رائدة مثل مركز دبي للتحكيم الدولي (DIAC) ومراكز التحكيم المعترف بها الأخرى. سواء كان الأمر يتعلق بصياغة اتفاقيات التحكيم أو تمثيلك في إجراءات معقدة، فنحن ملتزمون بتحقيق نتائج إيجابية بكفاءة ومهنية.",
         "service8": "قانون الأسرة",
         "service9": "قانون الشركات",
         "service10": "القانون التجاري",
@@ -189,4 +216,13 @@ function changeLanguage(lang) {
         const key = element.getAttribute("data-key");
         element.textContent = translations[lang][key];
     });
+
+    // Apply RTL styles when Arabic is selected
+    if (lang === "ar") {
+        document.body.style.direction = "rtl";
+        document.body.style.textAlign = "right";
+    } else {
+        document.body.style.direction = "ltr";
+        document.body.style.textAlign = "left";
+    }
 }
