@@ -1,15 +1,4 @@
 @charset "UTF-8";
-
-[lang="ar"] {
-  direction: rtl;
-  text-align: right;
-}
-
-[lang="en"], [lang="fr"] {
-  direction: ltr;
-  text-align: left;
-}
-
 /* Theme Description
 -------------------------------------------------
 
@@ -2848,7 +2837,7 @@ body.loaded #preloader-active {
   background-color: transparent; /* Remove background color */
   color: #fff;
   font-size: 16px;
-  padding: 10px 24px;
+  padding: 10px 30px;
   border: 2px solid #ffffff;
   border-radius: 50px;
   cursor: pointer;
@@ -2867,7 +2856,7 @@ body.loaded #preloader-active {
   display: none;
   position: absolute;
   background-color: #191a33;
-  width: 150px;
+  width: 100px;
   box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
   z-index: 10000; /* Increase z-index to ensure it stays on top */
   top: 100%;
