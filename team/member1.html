@@ -378,6 +378,20 @@
 });
 
         </script>
+        <script>
+            document.querySelector(".background").addEventListener("click", function () {
+             let foreground = document.querySelector(".foreground");
+             let background = document.querySelector(".background");
+         
+             // Swap z-index
+             foreground.classList.toggle("background");
+             foreground.classList.toggle("foreground");
+         
+             background.classList.toggle("foreground");
+             background.classList.toggle("background");
+         });
+         
+         </script>
 		<!-- All JS Custom Plugins Link Here here -->
         <script src="./../assets/js/vendor/modernizr-3.5.0.min.js"></script>
 		<!-- Jquery, Popper, Bootstrap -->
