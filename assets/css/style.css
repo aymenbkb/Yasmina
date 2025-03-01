@@ -2856,7 +2856,7 @@ body.loaded #preloader-active {
   display: none;
   position: absolute;
   background-color: #191a33;
-  width: 100px;
+  width: 100%;
   box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
   z-index: 10000; /* Increase z-index to ensure it stays on top */
   top: 100%;
@@ -3632,9 +3632,14 @@ body.loaded #preloader-active {
 }
 
 .achievement-list li i {
-  color: #c9a44b;
+  color: #0b0b2b;
   font-size: 22px;
-  margin-right: 10px;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  justify-content: flex-start;
+  gap: 10px;
 }
 
 .achievements-img img {

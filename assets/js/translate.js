@@ -108,6 +108,22 @@ const translations = {
         "team-desc": "Our team is made up of experienced professionals who are dedicated to providing the best legal services to our clients.",
         "team-job1": "Advocates & Legal Consultants",
         "team-job2": "Advocate & Legal Advisor",
+        "team1-desc": "Denis Acker, Founding Partner of Acker Choquette, is a Canadian Attorney and co-founder of the Legal Consultancy Firm Acker Choquette, which operates out of Dubai.<br><br>Denis is a member of the Quebec Bar Association with over twenty years of experience. He specializes in Company Formation, Establishment of Trusts and Foundations, as well as Investment Immigration.<br><br>He offers guidance to foreign investors on their projects for establishment in Malta and other EU countries.",
+        "team1-item1": "Over 20 years of experience in corporate and investment law.",
+        "team1-item2": "Successfully assisted numerous multinational corporations in setting up businesses in the UAE and EU.",
+        "team1-item3": "Expert in trust formation and asset protection strategies.",
+        "team1-item4": "Recognized for his work in investment immigration and international business structuring.",
+        "team1-item5": "Regular speaker at international legal and business conferences.",
+        "team-qst": "What's Our Clients Opinion About Us",
+        "team2-desc": "Jordana Dray is an internationally experienced legal expert specializing in cross-border matters and complex litigation. She has worked in Paris at Olivier Metzner LLP and D.O. Kaminski LLP, in Israel with Meitar Liquvornik Geva Leshem and Professor Yuval Levy, Jordana Dray started her own boutique firm in Paris before joining Acker Parallele with Binmes’har & Co in the UAE as a partner before joining ACD LAW.<br> She leverages her global expertise to help individuals and companies navigate legal challenges between Europe and the Middle East. Fluent in French, English, and Hebrew, she is a trusted advisor in international law.",
+        "team2-achievments": "Jordana Dray",
+        "team2-item1": "Member of Paris Bar.",
+        "team2-item2": "Solicitor of the Senior Courts of England and Wales.",
+        "team2-item3": "Dubai Legal Consultant.",
+        "team2-item4": "Dubai DIFC Courts registered practitioner.",
+        "team2-item5": "ADGM Courts (Abu Dhabi) registered practitioner.",
+        "team2-item6": "List Counsel at the International Criminal Courts in the Hague.",
+        "team2-item7": "DIFC will draftsmen.",
         "about-qst": "Who we are",
         "about-text": "Acker Choquette Dray Legal Consultants.",
         "about-text-desc": "Our law firm operates out of the Emirate of Dubai, United Arab Emirates, since 1997, under the direction of its founder Mr. Denis Acker and Jordana Dray recently joined as Partner. We provide legal expertise to individual and corporate clients, wishing to establish professional and business activities in the Middle East Region, and to counsel individuals whose intentions are to extend their activities globally.",
@@ -120,6 +136,15 @@ const translations = {
         "news-text1": "Empowering Global Business: Navigating Markets and Legal Systems Across Borders",
         "news-text2": "Representing Client Interests: Versatility and Mobility in a Globalized World",
         "news-btn": "Read more",
+        "faq-title": "Frequently Asked Questions",
+        "faq-question1": "What Is Your Success Rate?",
+        "faq-answer1": "Each case is specific. Our global success rate is 96%.",
+        "faq-question2": "Can You Help Me?",
+        "faq-answer2": "Acker Choquette law firm does its best to solve each case and meet the expectations of its clients.",
+        "faq-question3": "Can I Contact You At Anytime?",
+        "faq-answer3": "Definitely yes! Feel free to send an email or fill the form in our 'contact us' section. Our team will respond as soon as possible.",
+        "faq-question4": "Are You Looking For New Attorneys?",
+        "faq-answer4": "Not at the moment, but feel free to send your resume to our email address.",
         "footer-links-title": "Quick Links",
         "footer-link1": "Contact Us",
         "footer-link2": "Meet the Team",
@@ -231,7 +256,23 @@ const translations = {
         "team-title": "Rencontrez l'équipe",
         "team-desc": "Notre équipe est composée de professionnels expérimentés dédiés à fournir les meilleurs services juridiques à nos clients.",
         "team-job1": "Avocats & Consultants Juridiques",
-        "team-job2": "Avocat & Conseiller Juridique",
+        "team-job2": "Avocat & Consultants Juridique",
+        "team1-desc": "Denis Acker, partenaire fondateur d'Acker Choquette, est un avocat canadien et co-fondateur du cabinet de conseil juridique Acker Choquette basé à Dubaï.<br><br>Denis est membre du Barreau du Québec avec plus de vingt ans d'expérience. Il est spécialisé dans la création d'entreprises, la constitution de fiducies et de fondations, ainsi que dans l'immigration investissement.<br><br>Il guide les investisseurs étrangers dans leurs projets d'établissement à Malte et dans d'autres pays de l'UE.",
+        "team1-item1": "Plus de 20 ans d'expérience en droit des sociétés et des investissements.",
+        "team1-item2": "A aidé avec succès de nombreuses multinationales à s'installer aux Émirats Arabes Unis et dans l'UE.",
+        "team1-item3": "Expert en constitution de fiducies et en stratégies de protection d'actifs.",
+        "team1-item4": "Reconnu pour son travail en immigration investissement et en structuration d'entreprises internationales.",
+        "team1-item5": "Intervenant régulier lors de conférences juridiques et commerciales internationales.",
+        "team-qst": "L'opinion de nos clients À propos de nous",
+        "team2-desc": "Jordana Dray est une experte juridique expérimentée à l’international, spécialisée dans les affaires transfrontalières et les litiges complexes. Elle a travaillé à Paris chez Olivier Metzner LLP et D.O. Kaminski LLP, en Israël avec Meitar Liquvornik Geva Leshem et le professeur Yuval Levy, Jordana Dray a fondé son propre cabinet boutique à Paris avant de rejoindre Acker Parallele avec Binmes’har & Co aux Émirats Arabes Unis en tant que partenaire, puis ACD LAW.<br> Elle met à profit son expertise mondiale pour aider les individus et les entreprises à naviguer les défis juridiques entre l’Europe et le Moyen-Orient. Parlant couramment le français, l’anglais et l’hébreu, elle est une conseillère de confiance en droit international.",
+        "team2-achievments": "Réalisations de Jordana Dray",
+        "team2-item1": "Membre du Barreau de Paris.",
+        "team2-item2": "Solicitor des Hautes Cours d'Angleterre et du Pays de Galles.",
+        "team2-item3": "Consultante juridique à Dubaï.",
+        "team2-item4": "Praticienne enregistrée auprès des tribunaux DIFC de Dubaï.",
+        "team2-item5": "Praticienne enregistrée auprès des tribunaux ADGM (Abu Dhabi).",
+        "team2-item6": "Conseil inscrit auprès des tribunaux pénaux internationaux de La Haye.",
+        "team2-item7": "Rédactrice de testaments DIFC.",
         "about-qst": "Qui nous sommes",
         "about-text": "Consultants juridiques Acker Choquette Dray.",
         "about-text-desc": "Notre cabinet d'avocats opère depuis l'Émirat de Dubaï, aux Émirats Arabes Unis, depuis 1997, sous la direction de son fondateur M. Denis Acker et Jordana Dray a récemment rejoint en tant qu'associée. Nous fournissons une expertise juridique aux clients individuels et corporatifs, souhaitant établir des activités professionnelles et commerciales dans la région du Moyen-Orient, et conseiller les individus dont les intentions sont d'étendre leurs activités à l'échelle mondiale.",
@@ -244,6 +285,15 @@ const translations = {
         "news-text1": "Favoriser les affaires mondiales : Naviguer entre les marchés et les systèmes juridiques à travers les frontières",
         "news-text2": "Représenter les intérêts des clients : Polyvalence et mobilité dans un monde globalisé",
         "news-btn": "Lire la suite",
+        "faq-title": "Questions Fréquemment Posées",
+        "faq-question1": "Quel est votre taux de réussite ?",
+        "faq-answer1": "Chaque cas est spécifique. Notre taux de réussite global est de 96 %.",
+        "faq-question2": "Pouvez-vous m'aider ?",
+        "faq-answer2": "Le cabinet d'avocats Acker Choquette fait de son mieux pour résoudre chaque cas et répondre aux attentes de ses clients.",
+        "faq-question3": "Puis-je vous contacter à tout moment ?",
+        "faq-answer3": "Absolument oui ! N'hésitez pas à nous envoyer un e-mail ou à remplir le formulaire dans notre section 'contactez-nous'. Notre équipe vous répondra dès que possible.",
+        "faq-question4": "Recherchez-vous de nouveaux avocats ?",
+        "faq-answer4": "Pas pour le moment, mais n'hésitez pas à envoyer votre CV à notre adresse e-mail.",
         "footer-links-title": "Liens rapides",
         "footer-link1": "Contactez-nous",
         "footer-link2": "Rencontrez l'équipe",
@@ -362,10 +412,29 @@ const translations = {
         "service9-item6": "النزاعات التجارية: تمثيل العملاء في النزاعات التجارية، بما في ذلك انتهاكات العقود، والخلافات بين المساهمين، والنزاعات داخل مجالس الإدارة.",
         "service9-content": "في Acker Choquette Dray Legal Consultants، نحن متخصصون في **قانون الشركات**، حيث نقدم خدمات قانونية شاملة للشركات من جميع الأحجام. سواء كنت بحاجة إلى مساعدة في **تأسيس الشركات**، **حوكمة الشركات**، **عمليات الاندماج والاستحواذ**، أو إدارة النزاعات التجارية، فإن فريقنا القانوني الخبير هنا لتقديم حلول عملية وفعالة. نضمن امتثال أعمالك للوائح الإمارات العربية المتحدة، وتحسين هيكلها القانوني، وحماية مصالحها في المعاملات والنزاعات المعقدة. دعنا نساعدك في التعامل مع تعقيدات قانون الشركات وتحقيق أهداف عملك.",
         "service10": "القانون التجاري",
+        "team-name1":"دينيس آكر",
+        "team-name2":"جوردانا دراي",
         "team-title": "تعرف على الفريق",
         "team-desc": "يتكون فريقنا من محترفين ذوي خبرة ملتزمين بتقديم أفضل الخدمات القانونية لعملائنا.",
-        "team-job1": "محامون ومستشارون قانونيون",
+        "team-job1": "محام ومستشار قانوني",
         "team-job2": "محام ومستشار قانوني",
+        "team1-desc": "دينيس آكر، الشريك المؤسس لشركة آكر شوكيت، هو محام كندي ومؤسس مشارك لشركة الاستشارات القانونية آكر شوكيت التي تعمل من دبي.<br><br>دينيس عضو في نقابة المحامين في كيبيك مع أكثر من عشرين عامًا من الخبرة. وهو متخصص في تأسيس الشركات وإنشاء الصناديق الاستئمانية والمؤسسات بالإضافة إلى الهجرة الاستثمارية.<br><br>يقدم التوجيه للمستثمرين الأجانب في مشاريعهم لتأسيس أعمال في مالطا وفي دول الاتحاد الأوروبي الأخرى.",
+        "team1-achievments": "إنجازات دينيس آكر:",
+        "team1-item1": "أكثر من 20 عامًا من الخبرة في قانون الشركات والاستثمار.",
+        "team1-item2": "ساعد بنجاح العديد من الشركات متعددة الجنسيات في إنشاء أعمال في الإمارات والاتحاد الأوروبي.",
+        "team1-item3": "خبير في تكوين الصناديق الاستئمانية واستراتيجيات حماية الأصول.",
+        "team1-item4": "معروف بعمله في الهجرة الاستثمارية وهيكلة الأعمال الدولية.",
+        "team1-item5": "متحدث منتظم في المؤتمرات القانونية والتجارية الدولية.",
+        "team2-desc": "جوردانا دراي هي خبيرة قانونية ذات خبرة دولية متخصصة في القضايا العابرة للحدود والتقاضي المعقد. عملت في باريس في Olivier Metzner LLP وD.O. Kaminski LLP، وفي إسرائيل مع Meitar Liquvornik Geva Leshem والبروفيسور يوفال ليفي، بدأت جوردانا دراي شركتها البوتيكية الخاصة في باريس قبل الانضمام إلى Acker Parallele مع Binmes’har & Co في الإمارات العربية المتحدة كشريك قبل الانضمام إلى ACD LAW.<br> تستفيد من خبرتها العالمية لمساعدة الأفراد والشركات على التنقل في التحديات القانونية بين أوروبا والشرق الأوسط. تتحدث الفرنسية والإنجليزية والعبرية بطلاقة، وهي مستشارة موثوقة في القانون الدولي.",
+        "team2-achievments": "إنجازات جوردانا دراي",
+        "team2-item1": "عضو في نقابة المحامين في باريس.",
+        "team2-item2": "محامية في المحاكم العليا في إنجلترا وويلز.",
+        "team2-item3": "مستشارة قانونية في دبي.",
+        "team2-item4": "ممارسة مسجلة في محاكم DIFC في دبي.",
+        "team2-item5": "ممارسة مسجلة في محاكم ADGM (أبوظبي).",
+        "team2-item6": "محامية مسجلة في المحاكم الجنائية الدولية في لاهاي.",
+        "team2-item7": "كاتبة وصايا في DIFC.",
+        "team-qst": "رأي عملائنا عنا",
         "about-qst": "من نحن",
         "about-text": "مستشارو أكر شوكيت دراي القانونيون.",
         "about-text-desc": "تعمل شركتنا القانونية من إمارة دبي، الإمارات العربية المتحدة، منذ عام 1997، تحت إدارة مؤسسها السيد دينيس آكر وانضمت جوردانا دراي مؤخرًا كشريك. نحن نقدم الخبرة القانونية للعملاء الأفراد والشركات، الذين يرغبون في تأسيس أنشطة مهنية وتجارية في منطقة الشرق الأوسط، وتقديم المشورة للأفراد الذين ينوون توسيع أنشطتهم على مستوى العالم.",
@@ -378,6 +447,15 @@ const translations = {
         "news-text1": "تمكين الأعمال العالمية: التنقل بين الأسواق والأنظمة القانونية عبر الحدود",
         "news-text2": "تمثيل مصالح العملاء: التنوع والتنقل في عالم معولم",
         "news-btn": "اقرأ المزيد",
+        "faq-title": "الأسئلة الشائعة",
+        "faq-question1": "ما هو معدل نجاحكم؟",
+        "faq-answer1": "كل حالة فريدة من نوعها. معدل نجاحنا العالمي هو 96٪.",
+        "faq-question2": "هل يمكنكم مساعدتي؟",
+        "faq-answer2": "يبذل مكتب Acker Choquette للمحاماة أقصى جهوده لحل كل حالة وتلبية توقعات عملائه.",
+        "faq-question3": "هل يمكنني الاتصال بكم في أي وقت؟",
+        "faq-answer3": "بالتأكيد نعم! لا تتردد في إرسال بريد إلكتروني أو ملء النموذج في قسم 'اتصل بنا'. سوف يقوم فريقنا بالرد في أقرب وقت ممكن.",
+        "faq-question4": "هل تبحثون عن محامين جدد؟",
+        "faq-answer4": "ليس في الوقت الحالي، ولكن لا تتردد في إرسال سيرتك الذاتية إلى عنوان بريدنا الإلكتروني.",
         "footer-links-title": "روابط سريعة",
         "footer-link1": "اتصل بنا",
         "footer-link2": "تعرف على الفريق",
@@ -401,33 +479,56 @@ const translations = {
     }
 };
 
-function changeLanguage(lang) {
-    // Store selected language in localStorage
-    localStorage.setItem("selectedLanguage", lang);
+function translateElement(element, lang) {
+    const key = element.getAttribute("data-key");
 
-    // Apply the translation to all elements with a data-key
-    document.querySelectorAll("[data-key]").forEach(element => {
-        const key = element.getAttribute("data-key");
-        if (translations[lang] && translations[lang][key]) {
-            element.textContent = translations[lang][key];
-        }
-    });
+    // If the element has no <a> tags (simple text), replace it directly
+    if (!element.querySelector("a") && translations[lang][key]) {
+        element.innerHTML = translations[lang][key];
+        return;
+    }
 
-    // Apply RTL styles when Arabic is selected
-    if (lang === "ar") {
-        document.body.style.direction = "rtl";
-        document.body.style.textAlign = "right";
-    } else {
-        document.body.style.direction = "ltr";
-        document.body.style.textAlign = "left";
+    // Handle elements with <a> tags
+    if (translations[lang][key]) {
+        const originalLinks = Array.from(element.querySelectorAll("a"));
+        const linkKeys = [
+            "link-denis-acker", "link-acker-choquette", "link-canadian-attorney",
+            "link-legal-firm", "link-quebec-bar", "link-company-formation",
+            "link-trusts-foundations", "link-investment-immigration", "link-malta",
+            "link-eu-countries"
+        ];
+
+        // Split the translated text by <br> tags
+        const textParts = translations[lang][key].split(/<br\s*\/?>/i);
+        element.innerHTML = ""; // Clear current content
+        let currentLinkIndex = 0;
+
+        textParts.forEach((part, index) => {
+            const tempDiv = document.createElement("div");
+            tempDiv.innerHTML = part;
+            const textNodes = Array.from(tempDiv.childNodes);
+
+            textNodes.forEach(node => {
+                if (node.nodeType === Node.TEXT_NODE) {
+                    element.appendChild(document.createTextNode(node.textContent));
+                }
+            });
+
+            // Insert the translated <a> tag if it corresponds to this position
+            if (currentLinkIndex < originalLinks.length) {
+                const originalLink = originalLinks[currentLinkIndex];
+                const newLink = document.createElement("a");
+                newLink.href = originalLink.href;
+                newLink.target = originalLink.target || "";
+                newLink.textContent = translations[lang][linkKeys[currentLinkIndex]];
+                element.appendChild(newLink);
+                currentLinkIndex++;
+            }
+
+            // Add a <br> if this isn't the last part
+            if (index < textParts.length - 1) {
+                element.appendChild(document.createElement("br"));
+            }
+        });
     }
 }
-
-// Function to apply the saved language when the page loads
-function applySavedLanguage() {
-    let savedLanguage = localStorage.getItem("selectedLanguage") || "en"; // Default to English
-    changeLanguage(savedLanguage);
-}
-
-// Run the function on page load
-document.addEventListener("DOMContentLoaded", applySavedLanguage);

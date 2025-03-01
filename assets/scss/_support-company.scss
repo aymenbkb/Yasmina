@@ -255,9 +255,14 @@
 }
 
 .achievement-list li i {
-    color: #c9a44b;
-    font-size: 22px;
-    margin-right: 10px;
+  color: #0b0b2b;
+  font-size: 22px;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  justify-content: flex-start;
+  gap: 10px;
 }
 
 .achievements-img img {
