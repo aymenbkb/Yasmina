@@ -2141,25 +2141,25 @@ body.loaded #preloader-active {
 }
 
 .section-padding30 {
-  padding-top: 183px;
-  padding-bottom: 170px;
+  padding-top: 60px;
+  padding-bottom: 20px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .section-padding30 {
-    padding-top: 183px;
-    padding-bottom: 170px;
+    padding-top: 60px;
+    padding-bottom: 20px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .section-padding30 {
-    padding-top: 150px;
-    padding-bottom: 120px;
+    padding-top: 50px;
+    padding-bottom: 20px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-padding30 {
-    padding-top: 100px;
-    padding-bottom: 70px;
+    padding-top: 60px;
+    padding-bottom: 20px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
