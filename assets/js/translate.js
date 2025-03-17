@@ -36,15 +36,19 @@ const translations = {
         "service2-item6": "International IP Compliance: Navigating IP regulations across global jurisdictions.",
         "service2-content": "At Acker Choquette Dray Legal Consultants, we help you protect your innovations and brand identity with our comprehensive intellectual property (IP) and trademark services. Our team assists with securing patents, copyrights, and trademarks, offering tailored strategies to safeguard your assets from infringement in an increasingly competitive global market. Whether it's registering your intellectual property, enforcing your rights, or ensuring compliance with international regulations, we are committed to providing top-tier legal support to protect what makes your business unique. Let us partner with you to secure your creative and commercial success.",
         "service3": "Criminal Law",
-        "service3-key": "Key areas of our criminal law services include:",
+
+     
+            "service3-key": "Key areas of our criminal law services include:",
+            "service3-item1": "Criminal Defense and Victim Indemnification: Representing clients in criminal cases to safeguard their rights and ensure a fair trial, including in extradition proceedings, Interpol Red Notices, and arrest warrant matters.",
+            "service3-item2": "Legal Advice: Providing expert legal opinion regarding criminal matters to help clients understand their options.",
+            "service3-item4": "Case Management: Offering complete support throughout the legal process, from arrest to trial and sentencing.",
+            "service3-item5": "Appeals: Representing clients in appellate proceedings before various courts including the Court of First Instance, Court of Appeal, and the Supreme Court to challenge unfair convictions or sentences.",
+            "service3-item6": "Compliance: Ensuring compliance with UAE laws, regulations, and procedures throughout the criminal process.",
+       
         "service3-description": "Our criminal law and compliance services in the UAE are designed to provide expert guidance and robust defense. With a deep understanding of the complexities of UAE criminal law and the Dubai justice system, our team of seasoned lawyers ensures comprehensive support throughout every stage of your case. From sound legal advice to developing effective, tailored defense strategies, we are committed to protecting your rights and achieving the best possible outcomes.",
-        "service3-item1": "Criminal Defense: Representing clients in criminal cases to safeguard their rights and ensure a fair trial.",
-        "service3-item2": "Legal Advice: Providing expert legal counsel on criminal matters to help clients understand their options.",
         "service3-item3": "Investigation Support: Assisting in the investigation phase by ensuring all evidence is handled properly and fairly.",
-        "service3-item4": "Appeals: Representing clients in appeals to challenge unfair convictions or sentences.",
-        "service3-item5": "Compliance: Ensuring compliance with UAE laws, regulations, and procedures throughout the criminal process.",
-        "service3-item6": "Case Management: Offering complete support throughout the legal process, from arrest to trial and sentencing.",
-        "service3-content": "At Acker Choquette Dray Legal Consultants, we specialize in criminal law, offering expert defense strategies and legal advice in the UAE. Our experienced legal team is committed to providing robust representation in criminal cases, whether you're facing charges or need assistance with compliance issues. We guide clients through every stage of the criminal justice process, ensuring that their rights are protected and their best interests are upheld. Let us help you navigate the complexities of criminal law in the UAE and achieve the most favorable outcome possible.",
+      
+            "service3-content": "At Acker Choquette Dray Legal Consultants, we specialize in criminal law, offering expert defense strategies and legal advice in the UAE. Our experienced legal team is committed to providing robust representation in criminal cases. We guide clients through every stage of the criminal justice process, ensuring that their rights are protected and their best interests are upheld. All procedures are handled in collaboration with local attorneys representing clients in front of UAE Courts.",
         "service4": "Immigration Law",
         "service4-description": "Immigration Law governs the legal processes and regulations concerning individuals entering, residing in, and departing from a country. It covers a broad spectrum of issues, including visas, work permits, residency, and citizenship, ensuring compliance with national and international laws.",
         "service4-key": "Key areas of immigration law include:",
@@ -66,23 +70,27 @@ const translations = {
         "service5-item6": "Financial Management: Advising on accounting, financial reporting, and structuring tax-efficient business operations.",
         "service8-content": "At Acker Choquette Dray Legal Consultants, we provide expert guidance on all aspects of tax law to help businesses navigate the complexities of VAT registration, tax compliance, and cross-border tax issues. Whether you're a local business or an international company operating in the UAE, our team of skilled tax lawyers is here to provide tailored, results-driven advice. We handle everything from routine VAT filings to complex tax disputes, ensuring your business remains compliant and protected from unnecessary risks. Trust our expertise to help you achieve the best possible outcomes in your tax matters.",
         "service6": "WILL",
-        "service6-description": "WILL covers the legal process of drafting a will, ensuring that your assets are distributed according to your wishes after your passing. In the UAE, a will must comply with both local and international regulations to be legally recognized. Our expert team provides assistance in drafting WILL that ensure your estate is handled smoothly, minimizing potential disputes and ensuring that your family is provided for according to your intentions.",
-        "service6-key": "Key Areas of WILL Include:",
-        "service6-item1": "Drafting a Valid Will: Ensuring your will adheres to local and international legal standards.",
-        "service6-item2": "Inheritance Laws: Understanding how assets are passed to heirs in accordance with UAE laws.",
-        "service6-item3": "Guardianship for Minors: Specifying guardianship arrangements for your children in case of your passing.",
-        "service6-item4": "Dispute Resolution: Offering assistance with potential family disagreements regarding the inheritance of assets.",
-        "service6-item5": "Asset Protection: Structuring your will to protect assets and reduce tax liabilities for heirs.",
-        "service6-content": "We offer expert assistance with WILL and inheritance laws in the UAE through a seamless e-service platform. We ensure your assets are protected and your wishes are honored, adhering to both local and international regulations. Our team provides tailored solutions, guiding you through the legal requirements with efficiency and confidentiality, offering peace of mind for you and your loved ones.",
-        "service7": "ARBITRATION & DISPUTE RESOLUTION",
-        "service7-description":"Arbitration Law governs the process of resolving disputes outside of traditional courts, where parties agree to submit their conflict to one or more neutral arbitrators whose decision (award) is legally binding. It provides a framework for arbitration agreements, the conduct of proceedings, and enforcement of arbitral awards, ensuring efficiency, fairness, and finality in dispute resolution.",
-        "service7-key":"Key areas that arbitration Law include:",
-        "service7-item1": "Arbitration Expertise: Our team of experienced and bilingual lawyers specializes in arbitration procedures and proceedings both within and outside the UAE.",
-        "service7-item2": "Property Disputes: Successfully handling claims related to property disputes.",
-        "service7-item3": "Civil and Commercial Disputes: Expertise in resolving civil and commercial disputes through arbitration.",
-        "service7-item4": "Dubai International Arbitration Centre (DIAC): Extensive experience disputing claims at DIAC.",
-        "service7-item5": "Other Arbitration Centres: Proficient in handling cases at various arbitration centres within the UAE.",
-        "service7-content":"Our bilingual legal team specializes in arbitration law both within and beyond the UAE. We bring extensive expertise in representing clients in arbitration proceedings, including property disputes, civil matters, and commercial claims. Our proven track record includes successful cases at leading institutions such as the Dubai International Arbitration Centre (DIAC) and other recognized arbitration centers. Whether drafting arbitration agreements or representing you in complex proceedings, we are dedicated to achieving favorable outcomes with efficiency and professionalism.",
+      
+            "service6-description": "DIFC and ADGM wills provide a secure mechanism for non-Muslim expatriates to distribute their assets according to their wishes. The DIFC Wills Service Centre and the ADGM Registration Authority offer will registration services with clear legal frameworks based on common law principles.",
+            "service6-key": "Key Areas of WILL Include:",
+            "service6-item1": "Drafting a Valid Will: Ensuring your will adheres to local and international legal standards.",
+            "service6-item2": "Inheritance Laws: Understanding how assets are passed to heirs in accordance with UAE laws.",
+            "service6-item3": "Guardianship for Minors: Specifying guardianship arrangements for your children in case of your passing.",
+            "service6-item4": "Dispute Resolution: Offering assistance with potential family disagreements regarding the inheritance of assets.",
+            "service6-item5": "Asset Protection: Structuring your will to protect assets and reduce tax liabilities for heirs.",
+            "service6-content": "We offer expert assistance with WILL and inheritance laws in the UAE through a seamless e-service platform. We ensure your assets are protected and your wishes are honored, adhering to both local and international regulations. Our team provides tailored solutions, guiding you through the legal requirements with efficiency and confidentiality, offering peace of mind for you and your loved ones.",
+
+    
+            "service7": "ARBITRATION & DISPUTE RESOLUTION",
+            "service7-description": "DIFC Courts were established in 2004 by His Highness (Late) Sheikh Maktoum bin Rashid Al Maktoum, then Ruler of Dubai, as an independent judicial system based on English common law. They serve international institutions operating in Dubai and the UAE, handling local and international civil and commercial disputes. Similarly, the Abu Dhabi Global Market (ADGM) Courts, launched on 30 May 2016, aim to position ADGM as a key forum for international business. As common-law courts modeled after the English court system, they adjudicate civil and commercial disputes. ADGM is the first jurisdiction in the Middle East to apply English Common Law directly, following the approach of Singapore and Hong Kong, ensuring its regulations incorporate English Common Law principles, including equity rules.",
+            "service7-key": "Key areas of this law include:",
+            "service7-item1": "Arbitration Expertise: Our team of experienced and bilingual lawyers specializes in arbitration procedures and proceedings both within and outside the UAE.",
+            "service7-item3": "Civil and Commercial Disputes: Expertise in resolving civil and commercial disputes through arbitration.",
+            "service7-item4": "Dubai International Arbitration Centre (DIAC): Extensive experience disputing claims at DIAC.",
+            "service7-item5": "Other Arbitration Centres: Proficient in handling cases at various arbitration centres within the UAE.",
+            "service-title": "Our service",
+            "service7-content": "Our bilingual legal team specializes in arbitration law both within and beyond the UAE. We bring extensive expertise in representing clients in arbitration proceedings, including property disputes, civil matters, and commercial claims. Our proven track record includes successful cases at leading institutions such as the Dubai International Arbitration Centre (DIAC) and other recognized arbitration centers. Whether drafting arbitration agreements or representing you in complex proceedings, we are dedicated to achieving favorable outcomes with efficiency and professionalism.",
+       
         "service8": "FAMILY LAW",
         "service8-description": "Family Law is the branch of law that deals with legal matters concerning family relationships, such as marriage, divorce, child custody, alimony, and inheritance. It addresses the rights and responsibilities of individuals within family structures, with sensitivity to cultural, religious, and social dynamics.",
         "service8-key": "Key areas of family law include:",
@@ -106,7 +114,7 @@ const translations = {
         "service10": "COMMERCIAL LAW",
         "team-title": "Meet the Team",
         "team-desc": "Our team is made up of experienced professionals who are dedicated to providing the best legal services to our clients.",
-        "team-job1": "Advocates & Legal Consultants",
+        "team-job1": "Advocates & Legal Consultant",
         "team-job2": "Advocate & Legal Advisor",
         "team1-desc": "Denis Acker, Founding Partner of Acker Choquette, is a Canadian Attorney and co-founder of the Legal Consultancy Firm Acker Choquette, which operates out of Dubai.<br><br>Denis is a member of the Quebec Bar Association with over twenty years of experience. He specializes in Company Formation, Establishment of Trusts and Foundations, as well as Investment Immigration.<br><br>He offers guidance to foreign investors on their projects for establishment in Malta and other EU countries.",
         "team1-item1": "Over 20 years of experience in corporate and investment law.",
@@ -115,14 +123,14 @@ const translations = {
         "team1-item4": "Recognized for his work in investment immigration and international business structuring.",
         "team1-item5": "Regular speaker at international legal and business conferences.",
         "team-qst": "What's Our Clients Opinion About Us",
-        "team2-desc": "Jordana Dray is an internationally experienced legal expert specializing in cross-border matters and complex litigation. She has worked in Paris at Olivier Metzner LLP and D.O. Kaminski LLP, in Israel with Meitar Liquvornik Geva Leshem and Professor Yuval Levy, Jordana Dray started her own boutique firm in Paris before joining Acker Parallele with Binmes’har & Co in the UAE as a partner before joining ACD LAW.<br> She leverages her global expertise to help individuals and companies navigate legal challenges between Europe and the Middle East. Fluent in French, English, and Hebrew, she is a trusted advisor in international law.",
+        "team2-desc": "Jordana Dray is an internationally accomplished legal expert specializing in cross-border matters and complex litigation. She has worked in Paris at Olivier Metzner LLP and D.O. Kaminski LLP, in Israel with Meitar Liquvornik Geva Leshem and Professor Yuval Levy. In 2013, she founded her own boutique firm in Paris before joining Binmes’har & Co in the UAE as a partner in 2022. In 2024, she joined Acker Choquette to create ACD Law. She leverages her global expertise to help individuals and companies navigate legal challenges between Europe and the Middle East. Fluent in French, English, and Hebrew, she is a trusted advisor in international law.",
         "team2-achievments": "Jordana Dray",
-        "team2-item1": "Member of Paris Bar.",
-        "team2-item2": "Solicitor of the Senior Courts of England and Wales.",
-        "team2-item3": "Dubai Legal Consultant.",
-        "team2-item4": "Dubai DIFC Courts registered practitioner.",
-        "team2-item5": "ADGM Courts (Abu Dhabi) registered practitioner.",
-        "team2-item6": "List Counsel at the International Criminal Courts in the Hague.",
+        "team2-item1": "Member of Paris Bar Association.",
+        "team2-item2": "DIFC Registered Practitioner.",
+        "team2-item3": "ADGM Registered Practitioner.",
+        "team2-item4": "ICC (International Criminal Court in the Hague) listed counsel.",
+        "team2-item5": " DIFC will draftsmen. ",
+        "team2-item6": "ADGM Courts (Abu Dhabi) registered practitioner.",
         "team2-item7": "DIFC will draftsmen.",
         "about-qst": "Who we are",
         "about-text": "Acker Choquette Dray Legal Consultants.",
@@ -194,15 +202,16 @@ const translations = {
         "service1-content": "Chez Acker Choquette Dray Legal Consultants, nous offrons une expertise pour la création d'entreprises dans les zones franches des Émirats Arabes Unis. Que vous souhaitiez établir une nouvelle société, enregistrer votre entreprise ou garantir une conformité juridique complète, notre équipe propose des solutions adaptées pour vous aider à naviguer efficacement dans le processus. Nous fournissons des conseils stratégiques sur la réglementation des zones franches, les avantages fiscaux et le choix de la meilleure zone pour votre entreprise. Laissez-nous vous guider vers le succès et garantir une entrée fluide et conforme sur le marché des Émirats Arabes Unis.",
         "service2": "Droit de la propriété intellectuelle",
         "service3": "Droit pénal",
-        "service3-key": "Les domaines clés de droit pénal comprennent :",
+
+    
+            "service3-key": "Les domaines clés de nos services en droit pénal incluent :",
+            "service3-item1": "Défense pénale et indemnisation des victimes : Représentation des clients dans des affaires pénales pour protéger leurs droits et garantir un procès équitable, y compris dans les procédures d'extradition, les avis rouges d'Interpol et les affaires de mandats d'arrêt.",
+            "service3-item2": "Conseil juridique : Fourniture d'une opinion juridique experte concernant les affaires pénales pour aider les clients à comprendre leurs options.",
+            "service3-item4": "Gestion des dossiers : Offre d'un soutien complet tout au long du processus juridique, de l'arrestation au procès et à la condamnation.",
+            "service3-item5": "Appels : Représentation des clients dans les procédures d'appel devant diverses juridictions, y compris le tribunal de première instance, la cour d'appel et la Cour suprême, pour contester des condamnations ou des peines injustes.",
+            "service3-item6": "Conformité : Garantie du respect des lois, règlements et procédures des Émirats arabes unis tout au long du processus pénal.",
         "service3-description": "Nos services en droit pénal et conformité aux Émirats Arabes Unis sont conçus pour fournir des conseils d'experts et une défense solide. Avec une compréhension approfondie des complexités du droit pénal des Émirats et du système judiciaire de Dubaï, notre équipe d'avocats expérimentés assure un soutien complet à chaque étape de votre affaire. De la consultation juridique à l'élaboration de stratégies de défense efficaces et adaptées, nous nous engageons à protéger vos droits et à obtenir les meilleurs résultats possibles.",
-        "service3-key": "Les domaines clés de nos services en droit pénal comprennent :",
-        "service3-item1": "Défense pénale : Représentation des clients dans des affaires pénales pour garantir un procès équitable et protéger leurs droits.",
-        "service3-item2": "Conseils juridiques : Fournir des conseils juridiques d'experts sur les affaires pénales afin d'aider les clients à comprendre leurs options.",
         "service3-item3": "Soutien aux enquêtes : Assistance lors de la phase d'enquête en veillant à ce que toutes les preuves soient traitées correctement et équitablement.",
-        "service3-item4": "Appels : Représentation des clients lors d'appels pour contester des condamnations ou des peines injustes.",
-        "service3-item5": "Conformité : Assurer le respect des lois, réglementations et procédures des Émirats tout au long du processus pénal.",
-        "service3-item6": "Gestion des affaires : Soutien complet tout au long du processus judiciaire, de l'arrestation au procès et à la condamnation.",
         "service4": "Droit de l'immigration",
         "service4-description": "Le droit de l'immigration régit les processus et réglementations juridiques concernant l'entrée, la résidence et le départ des individus d'un pays. Il couvre un large éventail de questions, notamment les visas, les permis de travail, la résidence et la citoyenneté, garantissant la conformité aux lois nationales et internationales.",
         "service4-key": "Les principaux domaines du droit de l'immigration comprennent :",
@@ -215,23 +224,29 @@ const translations = {
         "service4-content": "Chez Acker Choquette Dray Legal Consultants, nous sommes spécialisés en droit de l'immigration et offrons une expertise pour naviguer dans les réglementations complexes. Que vous cherchiez une relocalisation temporaire, une résidence permanente ou une assistance pour les visas et permis de travail, notre équipe expérimentée est là pour vous accompagner à chaque étape. Nous nous engageons à comprendre les besoins uniques de chaque client afin d'offrir des solutions personnalisées en fonction de leurs objectifs d'immigration. Grâce à notre assistance, vous pouvez gérer les aspects juridiques de l'immigration en toute sérénité et en toute conformité.",
         "service5": "Droit fiscal",
         "service6": "Droit des testaments",
-        "service6-description": "Le droit des testaments couvre le processus juridique de rédaction d'un testament, garantissant que vos biens sont distribués selon vos souhaits après votre décès. Aux Émirats Arabes Unis, un testament doit être conforme aux réglementations locales et internationales pour être reconnu légalement. Notre équipe d'experts vous assiste dans la rédaction de testaments afin d'assurer la gestion fluide de votre patrimoine, minimiser les litiges potentiels et garantir que votre famille est prise en charge selon vos intentions.",
-        "service6-key": "Principaux aspects du droit des testaments :",
-        "service6-item1": "Rédaction d'un testament valide : S'assurer que votre testament respecte les normes légales locales et internationales.",
-        "service6-item2": "Législation sur l'héritage : Comprendre comment les biens sont transmis aux héritiers conformément aux lois des Émirats Arabes Unis.",
-        "service6-item3": "Tutelle des mineurs : Spécifier les arrangements de tutelle pour vos enfants en cas de décès.",
-        "service6-item4": "Résolution des litiges : Assistance en cas de désaccords familiaux concernant l'héritage des biens.",
-        "service6-item5": "Protection des actifs : Structuration de votre testament pour protéger les biens et réduire les charges fiscales des héritiers.",
-        "service6-content": "Nous offrons une assistance experte en matière de testaments et de droit des successions aux Émirats Arabes Unis via une plateforme de services électroniques fluide. Nous veillons à ce que vos biens soient protégés et que vos souhaits soient respectés, conformément aux réglementations locales et internationales. Notre équipe propose des solutions personnalisées, vous guidant à travers les exigences légales avec efficacité et confidentialité, pour vous offrir, ainsi qu'à vos proches, une tranquillité d'esprit.",
-        "service7": "Arbitrage et résolution des litiges",
-        "service7-description": "Le droit de l'arbitrage régit le processus de résolution des litiges en dehors des tribunaux traditionnels, où les parties acceptent de soumettre leur conflit à un ou plusieurs arbitres neutres dont la décision (sentence) est juridiquement contraignante. Il fournit un cadre pour les accords d'arbitrage, le déroulement des procédures et l'exécution des sentences arbitrales, garantissant efficacité, équité et finalité dans la résolution des litiges.",
-        "service7-key": "Les domaines clés du droit de l'arbitrage comprennent :", 
-        "service7-item1": "Expertise en arbitrage : Notre équipe d'avocats expérimentés et bilingues est spécialisée dans les procédures et processus d'arbitrage aux Émirats Arabes Unis et à l'international.",
+
+       
+            "service6-description": "Les testaments DIFC et ADGM offrent un mécanisme sécurisé aux expatriés non musulmans pour distribuer leurs biens selon leurs souhaits. Le Centre des services de testaments DIFC et l'Autorité d'enregistrement ADGM proposent des services d'enregistrement de testaments avec des cadres juridiques clairs basés sur les principes du droit commun.",
+            "service6-key": "Les domaines clés des testaments incluent :",
+            "service6-item1": "Rédaction d'un testament valide : S'assurer que votre testament respecte les normes juridiques locales et internationales.",
+            "service6-item2": "Lois sur l'héritage : Comprendre comment les biens sont transmis aux héritiers conformément aux lois des Émirats arabes unis.",
+            "service6-item3": "Tutelle des mineurs : Spécifier les arrangements de tutelle pour vos enfants en cas de décès.",
+            "service6-item4": "Résolution des conflits : Offrir une assistance en cas de désaccords familiaux potentiels concernant l'héritage des biens.",
+            "service6-item5": "Protection des actifs : Structurer votre testament pour protéger les actifs et réduire les obligations fiscales des héritiers.",
+            "service6-content": "Nous offrons une assistance experte pour les testaments et les lois sur l'héritage aux Émirats arabes unis via une plateforme de services électroniques fluide. Nous veillons à ce que vos biens soient protégés et vos souhaits respectés, en conformité avec les réglementations locales et internationales. Notre équipe propose des solutions sur mesure, vous guidant à travers les exigences légales avec efficacité et confidentialité, offrant la tranquillité d'esprit à vous et à vos proches.",
+       
+            "service7": "ARBITRAGE ET RÉSOLUTION DES CONFLITS",
+            "service7-description": "Les tribunaux du DIFC ont été établis en 2004 par Son Altesse (feu) Cheikh Maktoum bin Rashid Al Maktoum, alors souverain de Dubaï, en tant que système judiciaire indépendant basé sur le droit commun anglais. Ils servent les institutions internationales opérant à Dubaï et aux Émirats arabes unis, traitant des litiges civils et commerciaux locaux et internationaux. De même, les tribunaux du marché mondial d'Abu Dhabi (ADGM), lancés le 30 mai 2016, visent à positionner l'ADGM comme un forum clé pour les affaires internationales. En tant que tribunaux de droit commun inspirés du système judiciaire anglais, ils jugent les litiges civils et commerciaux. L'ADGM est la première juridiction au Moyen-Orient à appliquer directement le droit commun anglais, suivant l'approche de Singapour et de Hong Kong, garantissant que ses règlements intègrent les principes du droit commun anglais, y compris les règles d'équité.",
+            "service7-key": "Les domaines clés de ce droit incluent :",
+            "service7-item1": "Expertise en arbitrage : Notre équipe d'avocats expérimentés et bilingues est spécialisée dans les procédures et les processus d'arbitrage, tant à l'intérieur qu'à l'extérieur des Émirats arabes unis.",
+            "service7-item3": "Litiges civils et commerciaux : Expertise dans la résolution des litiges civils et commerciaux par l'arbitrage.",
+            "service7-item4": "Centre international d'arbitrage de Dubaï (DIAC) : Vaste expérience dans la contestation de réclamations au DIAC.",
+            "service7-item5": "Autres centres d'arbitrage : Compétence dans la gestion de cas dans divers centres d'arbitrage aux Émirats arabes unis.",
+            "service-title": "Notre service",
+            "service7-content": "Notre équipe juridique bilingue est spécialisée dans le droit de l'arbitrage, tant aux Émirats arabes unis qu'à l'international. Nous apportons une expertise approfondie dans la représentation des clients lors de procédures d'arbitrage, y compris les litiges immobiliers, les affaires civiles et les réclamations commerciales. Notre historique éprouvé inclut des cas réussis dans des institutions de premier plan telles que le Centre international d'arbitrage de Dubaï (DIAC) et d'autres centres d'arbitrage reconnus. Que ce soit pour rédiger des accords d'arbitrage ou vous représenter dans des procédures complexes, nous nous engageons à obtenir des résultats favorables avec efficacité et professionnalisme.",
+    
+                "service3-content": "Chez Acker Choquette Dray Legal Consultants, nous sommes spécialisés en droit pénal, offrant des stratégies de défense expertes et des conseils juridiques aux Émirats arabes unis. Notre équipe juridique expérimentée s'engage à fournir une représentation solide dans les affaires pénales. Nous guidons nos clients à travers chaque étape du processus de justice pénale, en veillant à ce que leurs droits soient protégés et leurs meilleurs intérêts défendus. Toutes les procédures sont gérées en collaboration avec des avocats locaux représentant les clients devant les tribunaux des Émirats arabes unis.",
         "service7-item2": "Litiges immobiliers : Gestion réussie des réclamations liées aux litiges immobiliers.",
-        "service7-item3": "Litiges civils et commerciaux : Expertise dans la résolution des litiges civils et commerciaux par arbitrage.",
-        "service7-item4": "Centre d'arbitrage international de Dubaï (DIAC) : Expérience approfondie des litiges au DIAC.",
-        "service7-item5": "Autres centres d'arbitrage : Compétence dans la gestion des affaires auprès de divers centres d'arbitrage aux Émirats Arabes Unis.",
-        "service7-content": "Notre équipe juridique bilingue est spécialisée en droit de l'arbitrage, aussi bien aux Émirats arabes unis qu'à l'international. Nous possédons une expertise approfondie dans la représentation des clients lors de procédures d'arbitrage, couvrant les litiges immobiliers, civils et commerciaux. Notre solide expérience inclut des affaires réussies devant des institutions de premier plan telles que le Centre d'Arbitrage International de Dubaï (DIAC) et d'autres centres d'arbitrage reconnus. Que ce soit pour la rédaction d'accords d'arbitrage ou la représentation dans des procédures complexes, nous nous engageons à obtenir des résultats favorables avec efficacité et professionnalisme.",
         "service8": "Droit de la famille",
         "service8-description": "Le droit de la famille est la branche du droit qui traite des questions juridiques relatives aux relations familiales, telles que le mariage, le divorce, la garde des enfants, la pension alimentaire et l'héritage. Il aborde les droits et responsabilités des individus au sein des structures familiales, en tenant compte des aspects culturels, religieux et sociaux.",
         "service8-key": "Les principaux domaines du droit de la famille comprennent :",
@@ -264,14 +279,18 @@ const translations = {
         "team1-item4": "Reconnu pour son travail en immigration investissement et en structuration d'entreprises internationales.",
         "team1-item5": "Intervenant régulier lors de conférences juridiques et commerciales internationales.",
         "team-qst": "L'opinion de nos clients À propos de nous",
-        "team2-desc": "Jordana Dray est une experte juridique expérimentée à l’international, spécialisée dans les affaires transfrontalières et les litiges complexes. Elle a travaillé à Paris chez Olivier Metzner LLP et D.O. Kaminski LLP, en Israël avec Meitar Liquvornik Geva Leshem et le professeur Yuval Levy, Jordana Dray a fondé son propre cabinet boutique à Paris avant de rejoindre Acker Parallele avec Binmes’har & Co aux Émirats Arabes Unis en tant que partenaire, puis ACD LAW.<br> Elle met à profit son expertise mondiale pour aider les individus et les entreprises à naviguer les défis juridiques entre l’Europe et le Moyen-Orient. Parlant couramment le français, l’anglais et l’hébreu, elle est une conseillère de confiance en droit international.",
+       
+            "team2-desc": "Jordana Dray est une experte juridique de renommée internationale, spécialisée dans les affaires transfrontalières et les litiges complexes. Elle a travaillé à Paris chez Olivier Metzner LLP et D.O. Kaminski LLP, en Israël avec Meitar Liquvornik Geva Leshem et le professeur Yuval Levy. En 2013, elle a fondé son propre cabinet à Paris avant de rejoindre Binmes’har & Co aux Émirats arabes unis en tant qu’associée en 2022. En 2024, elle a rejoint Acker Choquette pour créer ACD Law. Elle met à profit son expertise mondiale pour aider les individus et les entreprises à surmonter les défis juridiques entre l’Europe et le Moyen-Orient. Parlant couramment le français, l’anglais et l’hébreu, elle est une conseillère de confiance en droit international.",
+     
         "team2-achievments": "Réalisations de Jordana Dray",
-        "team2-item1": "Membre du Barreau de Paris.",
-        "team2-item2": "Solicitor des Hautes Cours d'Angleterre et du Pays de Galles.",
-        "team2-item3": "Consultante juridique à Dubaï.",
-        "team2-item4": "Praticienne enregistrée auprès des tribunaux DIFC de Dubaï.",
-        "team2-item5": "Praticienne enregistrée auprès des tribunaux ADGM (Abu Dhabi).",
-        "team2-item6": "Conseil inscrit auprès des tribunaux pénaux internationaux de La Haye.",
+    
+            "team2-item1": "Membre du Barreau de Paris",
+            "team2-item2": "Praticien enregistré au DIFC",
+            "team2-item3": "Praticien enregistré à l'ADGM",
+            "team2-item4": "Conseil inscrit à la CPI (Cour pénale internationale de La Haye)",
+            "team2-item5": "Rédacteur de testaments au DIFC",
+            "team2-item6": "Praticien enregistré aux tribunaux de l'ADGM (Abu Dhabi)",
+    
         "team2-item7": "Rédactrice de testaments DIFC.",
         "about-qst": "Qui nous sommes",
         "about-text": "Consultants juridiques Acker Choquette Dray.",
@@ -353,14 +372,16 @@ const translations = {
         "service2-content": "في Acker Choquette Dray Legal Consultants، نساعدك في حماية ابتكاراتك وهوية علامتك التجارية من خلال خدماتنا الشاملة في الملكية الفكرية (IP) والعلامات التجارية. يساعدك فريقنا في تأمين براءات الاختراع وحقوق التأليف والنشر والعلامات التجارية، مع تقديم استراتيجيات مخصصة لحماية أصولك من الانتهاك في سوق عالمي متزايد التنافسية. سواء كنت بحاجة إلى تسجيل ملكيتك الفكرية أو فرض حقوقك أو ضمان الامتثال للوائح الدولية، فإننا ملتزمون بتقديم دعم قانوني من الدرجة الأولى لحماية ما يجعل عملك فريدًا. دعنا نكون شريكك في تأمين نجاحك الإبداعي والتجاري.",
         "service3": "القانون الجنائي",
         "service3-description": "تم تصميم خدماتنا في القانون الجنائي والامتثال في الإمارات العربية المتحدة لتقديم إرشادات خبراء ودفاع قوي. بفضل الفهم العميق لتعقيدات القانون الجنائي الإماراتي ونظام العدالة في دبي، يضمن فريقنا من المحامين ذوي الخبرة الدعم الشامل في كل مرحلة من مراحل قضيتك. بدءًا من تقديم المشورة القانونية إلى تطوير استراتيجيات دفاع فعالة ومخصصة، نحن ملتزمون بحماية حقوقك وتحقيق أفضل النتائج الممكنة.",
-        "service3-key": "تشمل المجالات الرئيسية لخدماتنا في القانون الجنائي ما يلي:",
-        "service3-item1": "الدفاع الجنائي: تمثيل العملاء في القضايا الجنائية لحماية حقوقهم وضمان محاكمة عادلة.",
-        "service3-item2": "المشورة القانونية: تقديم استشارات قانونية متخصصة في القضايا الجنائية لمساعدة العملاء على فهم خياراتهم.",
+       
+            "service3-key": "تشمل المجالات الرئيسية لخدماتنا في القانون الجنائي:",
+            "service3-item1": "الدفاع الجنائي وتعويض الضحايا: تمثيل العملاء في القضايا الجنائية لحماية حقوقهم وضمان محاكمة عادلة، بما في ذلك إجراءات التسليم، وإشعارات الإنتربول الحمراء، ومسائل أوامر الاعتقال.",
+            "service3-item2": "المشورة القانونية: تقديم رأي قانوني متخصص بشأن المسائل الجنائية لمساعدة العملاء على فهم خياراتهم.",
+            "service3-item4": "إدارة القضايا: تقديم دعم كامل خلال العملية القانونية، من الاعتقال إلى المحاكمة والحكم.",
+            "service3-item5": "الاستئناف: تمثيل العملاء في إجراءات الاستئناف أمام محاكم مختلفة بما في ذلك محكمة الدرجة الأولى، ومحكمة الاستئناف، والمحكمة العليا للطعن في الأحكام أو العقوبات غير العادلة.",
+            "service3-item6": "الامتثال: ضمان الامتثال لقوانين ولوائح وإجراءات دولة الإمارات العربية المتحدة طوال العملية الجنائية.",
+          
+                "service3-content": "في شركة أكير شوكيت دراي للاستشارات القانونية، نحن متخصصون في القانون الجنائي، ونقدم استراتيجيات دفاع متخصصة ومشورة قانونية في الإمارات العربية المتحدة. فريقنا القانوني المتمرس ملتزم بتقديم تمثيل قوي في القضايا الجنائية. نحن نرشد العملاء خلال كل مرحلة من مراحل العدالة الجنائية، مضمونين حماية حقوقهم والحفاظ على مصالحهم الفضلى. تُدار جميع الإجراءات بالتعاون مع المحامين المحليين الذين يمثلون العملاء أمام محاكم الإمارات العربية المتحدة.",
         "service3-item3": "دعم التحقيق: المساعدة في مرحلة التحقيق من خلال ضمان التعامل مع جميع الأدلة بشكل صحيح وعادل.",
-        "service3-item4": "الاستئنافات: تمثيل العملاء في الاستئنافات للطعن في الإدانات أو الأحكام غير العادلة.",
-        "service3-item5": "الامتثال: ضمان الامتثال لقوانين الإمارات العربية المتحدة ولوائحها وإجراءاتها طوال العملية الجنائية.",
-        "service3-item6": "إدارة القضايا: تقديم دعم شامل طوال العملية القانونية، من الاعتقال إلى المحاكمة وإصدار الأحكام.",
-        "service3-content": "في Acker Choquette Dray Legal Consultants، نحن متخصصون في القانون الجنائي، حيث نقدم استراتيجيات دفاعية متخصصة ومشورة قانونية في الإمارات العربية المتحدة. يلتزم فريقنا القانوني ذو الخبرة بتقديم تمثيل قوي في القضايا الجنائية، سواء كنت تواجه اتهامات أو تحتاج إلى مساعدة في مسائل الامتثال. نوجه عملاءنا خلال كل مرحلة من مراحل العملية القضائية الجنائية، ونضمن حماية حقوقهم والحفاظ على مصالحهم. دعنا نساعدك في التعامل مع تعقيدات القانون الجنائي في الإمارات وتحقيق أفضل نتيجة ممكنة.",
         "service4": "قانون الهجرة",
         "service4-description": "يحكم قانون الهجرة العمليات القانونية واللوائح المتعلقة بدخول الأفراد وإقامتهم ومغادرتهم للبلد. ويشمل مجموعة واسعة من القضايا، بما في ذلك التأشيرات، وتصاريح العمل، والإقامة، والجنسية، مما يضمن الامتثال للقوانين الوطنية والدولية.",
         "service4-key": "تشمل المجالات الرئيسية لقانون الهجرة ما يلي:",
@@ -374,23 +395,29 @@ const translations = {
         "service5": "قانون الضرائب",
         "service6": "قانون الوصايا",
         "service6": "قانون الوصايا",
-        "service6-description": "يغطي قانون الوصايا العملية القانونية لصياغة وصية، مما يضمن توزيع أصولك وفقًا لرغباتك بعد وفاتك. في الإمارات العربية المتحدة، يجب أن تمتثل الوصية للوائح المحلية والدولية حتى يتم الاعتراف بها قانونيًا. يقدم فريقنا المتخصص المساعدة في صياغة الوصايا لضمان إدارة ممتلكاتك بسلاسة، وتقليل النزاعات المحتملة، وضمان رعاية عائلتك وفقًا لنياتك.",
-        "service6-key": "المجالات الرئيسية لقانون الوصايا تشمل:",
-        "service6-item1": "صياغة وصية صالحة: ضمان امتثال وصيتك للمعايير القانونية المحلية والدولية.",
-        "service6-item2": "قوانين الميراث: فهم كيفية انتقال الأصول إلى الورثة وفقًا لقوانين الإمارات العربية المتحدة.",
-        "service6-item3": "الوصاية على القاصرين: تحديد ترتيبات الوصاية لأطفالك في حالة وفاتك.",
-        "service6-item4": "حل النزاعات: تقديم المساعدة في حالات النزاعات العائلية المحتملة حول توزيع الميراث.",
-        "service6-item5": "حماية الأصول: هيكلة وصيتك لحماية الأصول وتقليل الالتزامات الضريبية للورثة.",
-        "service6-content": "نقدم مساعدة متخصصة في قوانين الوصايا والميراث في الإمارات العربية المتحدة من خلال منصة إلكترونية سلسة. نضمن حماية أصولك والالتزام برغباتك وفقًا للوائح المحلية والدولية. يوفر فريقنا حلولًا مخصصة، ويوجهك خلال المتطلبات القانونية بكفاءة وسرية، مما يوفر راحة البال لك ولأحبائك.",
-        "service7": "التحكيم وحل النزاعات",
-        "service7-description": "ينظم قانون التحكيم عملية تسوية النزاعات خارج المحاكم التقليدية، حيث يوافق الأطراف على إحالة نزاعهم إلى محكم واحد أو أكثر محايدين، يكون قرارهم (الحكم) ملزمًا قانونيًا. يوفر إطارًا للاتفاقيات التحكيمية، وسير الإجراءات، وإنفاذ الأحكام التحكيمية، مما يضمن الكفاءة والعدالة والحسم في تسوية النزاعات.",
-        "service7-key": "تشمل المجالات الرئيسية لقانون التحكيم:",
-        "service7-item1": "خبرة في التحكيم: يتخصص فريقنا من المحامين ذوي الخبرة والمتحدثين بلغتين في إجراءات التحكيم داخل وخارج الإمارات العربية المتحدة.",
+
+       
+            "service6-description": "توفر وصايا DIFC وADGM آلية آمنة للمغتربين غير المسلمين لتوزيع أصولهم وفقًا لرغباتهم. يقدم مركز خدمة وصايا DIFC وهيئة التسجيل في ADGM خدمات تسجيل الوصايا مع أطر قانونية واضحة تعتمد على مبادئ القانون العام.",
+            "service6-key": "تشمل المجالات الرئيسية للوصية:",
+            "service6-item1": "صياغة وصية صحيحة: ضمان التزام وصيتك بالمعايير القانونية المحلية والدولية.",
+            "service6-item2": "قوانين الميراث: فهم كيفية انتقال الأصول إلى الورثة وفقًا لقوانين الإمارات العربية المتحدة.",
+            "service6-item3": "الوصاية على القاصرين: تحديد ترتيبات الوصاية على أطفالك في حالة وفاتك.",
+            "service6-item4": "حل النزاعات: تقديم المساعدة في الخلافات العائلية المحتملة بشأن ميراث الأصول.",
+            "service6-item5": "حماية الأصول: تهيئة وصيتك لحماية الأصول وتقليل الالتزامات الضريبية للورثة.",
+            "service6-content": "نحن نقدم مساعدة متخصصة في الوصايا وقوانين الميراث في الإمارات العربية المتحدة من خلال منصة خدمات إلكترونية سلسة. نحن نضمن حماية أصولك وتكريم رغباتك، ملتزمين باللوائح المحلية والدولية. يقدم فريقنا حلولًا مخصصة، يرشدك خلال المتطلبات القانونية بكفاءة وسرية، موفرًا راحة البال لك ولأحبائك.",
+       
+            "service7": "التحكيم وحل النزاعات",
+            "service7-description": "تم إنشاء محاكم مركز دبي المالي العالمي (DIFC) في عام 2004 بأمر من سمو الشيخ (الراحل) مكتوم بن راشد آل مكتوم، حاكم دبي آنذاك، كنظام قضائي مستقل يعتمد على القانون العام الإنجليزي. وهي تخدم المؤسسات الدولية العاملة في دبي والإمارات العربية المتحدة، وتتولى النزاعات المدنية والتجارية المحلية والدولية. وبالمثل، تهدف محاكم سوق أبوظبي العالمي (ADGM)، التي تم إطلاقها في 30 مايو 2016، إلى جعل السوق منصة رئيسية للأعمال الدولية. وباعتبارها محاكم تعتمد على القانون العام على غرار النظام القضائي الإنجليزي، فإنها تفصل في النزاعات المدنية والتجارية. يعتبر ADGM أول سلطة قضائية في الشرق الأوسط تطبق القانون العام الإنجليزي مباشرة، على غرار نهج سنغافورة وهونغ كونغ، مما يضمن دمج مبادئ القانون العام الإنجليزي، بما في ذلك قواعد العدالة، في لوائحه.",
+            "service7-key": "تشمل المجالات الرئيسية لهذا القانون:",
+            "service7-item1": "الخبرة في التحكيم: يتخصص فريقنا من المحامين ذوي الخبرة والثنائيي اللغة في إجراءات وتسويات التحكيم داخل الإمارات العربية المتحدة وخارجها.",
+            "service7-item3": "النزاعات المدنية والتجارية: الخبرة في حل النزاعات المدنية والتجارية من خلال التحكيم.",
+            "service7-item4": "مركز دبي الدولي للتحكيم (DIAC): خبرة واسعة في الطعن في المطالبات في DIAC.",
+            "service7-item5": "مراكز تحكيم أخرى: الكفاءة في التعامل مع القضايا في مراكز تحكيم متنوعة داخل الإمارات العربية المتحدة.",
+            "service-title": "خدماتنا",
+            "service7-content": "يتخصص فريقنا القانوني الثنائي اللغة في قانون التحكيم داخل الإمارات العربية المتحدة وخارجها. نحن نجلب خبرة واسعة في تمثيل العملاء في إجراءات التحكيم، بما في ذلك النزاعات العقارية والمسائل المدنية والمطالبات التجارية. يشمل سجلنا المثبت نجاحات في قضايا لدى مؤسسات رائدة مثل مركز دبي الدولي للتحكيم (DIAC) ومراكز تحكيم أخرى معترف بها. سواء كنا نصيغ اتفاقيات التحكيم أو نمثلك في إجراءات معقدة، نحن ملتزمون بتحقيق نتائج إيجابية بكفاءة واحترافية.",
+        
+        
         "service7-item2": "نزاعات الملكية: التعامل بنجاح مع المطالبات المتعلقة بنزاعات الملكية.",
-        "service7-item3": "النزاعات المدنية والتجارية: خبرة في حل النزاعات المدنية والتجارية من خلال التحكيم.",
-        "service7-item4": "مركز دبي للتحكيم الدولي (DIAC): خبرة واسعة في النزاعات المقدمة إلى DIAC.",
-        "service7-item5": "مراكز تحكيم أخرى: الكفاءة في التعامل مع القضايا في مختلف مراكز التحكيم داخل الإمارات العربية المتحدة.",
-        "service7-content": "يتخصص فريقنا القانوني الثنائي اللغة في قانون التحكيم داخل وخارج الإمارات العربية المتحدة. نحن نقدم خبرة واسعة في تمثيل العملاء في إجراءات التحكيم، بما في ذلك نزاعات الملكية، القضايا المدنية، والمطالبات التجارية. تشمل سجلاتنا الناجحة قضايا تمت معالجتها بنجاح في مؤسسات رائدة مثل مركز دبي للتحكيم الدولي (DIAC) ومراكز التحكيم المعترف بها الأخرى. سواء كان الأمر يتعلق بصياغة اتفاقيات التحكيم أو تمثيلك في إجراءات معقدة، فنحن ملتزمون بتحقيق نتائج إيجابية بكفاءة ومهنية.",
         "service8": "قانون الأسرة",
         "service8-description": "قانون الأسرة هو فرع من فروع القانون الذي يتعامل مع القضايا القانونية المتعلقة بالعلاقات الأسرية، مثل الزواج والطلاق وحضانة الأطفال والنفقة والميراث. يحدد حقوق ومسؤوليات الأفراد داخل الهياكل الأسرية، مع مراعاة الجوانب الثقافية والدينية والاجتماعية.",
         "service8-key": "تشمل المجالات الرئيسية لقانون الأسرة ما يلي:",
@@ -425,14 +452,18 @@ const translations = {
         "team1-item3": "خبير في تكوين الصناديق الاستئمانية واستراتيجيات حماية الأصول.",
         "team1-item4": "معروف بعمله في الهجرة الاستثمارية وهيكلة الأعمال الدولية.",
         "team1-item5": "متحدث منتظم في المؤتمرات القانونية والتجارية الدولية.",
-        "team2-desc": "جوردانا دراي هي خبيرة قانونية ذات خبرة دولية متخصصة في القضايا العابرة للحدود والتقاضي المعقد. عملت في باريس في Olivier Metzner LLP وD.O. Kaminski LLP، وفي إسرائيل مع Meitar Liquvornik Geva Leshem والبروفيسور يوفال ليفي، بدأت جوردانا دراي شركتها البوتيكية الخاصة في باريس قبل الانضمام إلى Acker Parallele مع Binmes’har & Co في الإمارات العربية المتحدة كشريك قبل الانضمام إلى ACD LAW.<br> تستفيد من خبرتها العالمية لمساعدة الأفراد والشركات على التنقل في التحديات القانونية بين أوروبا والشرق الأوسط. تتحدث الفرنسية والإنجليزية والعبرية بطلاقة، وهي مستشارة موثوقة في القانون الدولي.",
+  
+        "team2-desc": "جوردانا دراي هي خبيرة قانونية بارزة عالميًا متخصصة في القضايا عبر الحدود والتقاضي المعقد. عملت في باريس في أوليفييه ميتزنر LLP ودي. أو. كامينسكي LLP، وفي إسرائيل مع مييتار ليكفورنيك جيفا ليشم والبروفيسور يوفال ليفي. في عام 2013، أسست شركتها الخاصة في باريس قبل أن تنضم إلى بن مشار وشركاه في الإمارات العربية المتحدة كشريكة في عام 2022. في عام 2024، انضمت إلى أكير شوكيت لتأسيس قانون ACD. تستفيد من خبرتها العالمية لمساعدة الأفراد والشركات على التعامل مع التحديات القانونية بين أوروبا والشرق الأوسط. تتحدث الفرنسية والإنجليزية والعبرية بطلاقة، وهي مستشارة موثوقة في القانون الدولي.",
+      
         "team2-achievments": "إنجازات جوردانا دراي",
-        "team2-item1": "عضو في نقابة المحامين في باريس.",
-        "team2-item2": "محامية في المحاكم العليا في إنجلترا وويلز.",
-        "team2-item3": "مستشارة قانونية في دبي.",
-        "team2-item4": "ممارسة مسجلة في محاكم DIFC في دبي.",
-        "team2-item5": "ممارسة مسجلة في محاكم ADGM (أبوظبي).",
-        "team2-item6": "محامية مسجلة في المحاكم الجنائية الدولية في لاهاي.",
+    
+            "team2-item1": "عضو في نقابة المحامين في باريس",
+            "team2-item2": "ممارس مسجل في مركز دبي المالي العالمي (DIFC)",
+            "team2-item3": "ممارس مسجل في سوق أبوظبي العالمي (ADGM)",
+            "team2-item4": "محامٍ مدرج في قائمة المحكمة الجنائية الدولية (ICC) في لاهاي",
+            "team2-item5": "كاتب وصايا في مركز دبي المالي العالمي (DIFC)",
+            "team2-item6": "ممارس مسجل في محاكم سوق أبوظبي العالمي (ADGM)",
+   
         "team2-item7": "كاتبة وصايا في DIFC.",
         "team-qst": "رأي عملائنا عنا",
         "about-qst": "من نحن",
@@ -478,17 +509,37 @@ const translations = {
         "web-visit": "قم بزيارة الموقع"
     }
 };
+document.addEventListener("DOMContentLoaded", () => {
+    // Load saved language from localStorage or default to English
+    const savedLang = localStorage.getItem("language") || "en";
+    changeLanguage(savedLang);
+});
+
+function changeLanguage(lang) {
+    document.documentElement.setAttribute("lang", lang);
+    localStorage.setItem("language", lang); // Save language preference
+
+    if (lang === "ar") {
+        document.body.setAttribute("dir", "rtl");
+        document.body.style.textAlign = "right";
+    } else {
+        document.body.setAttribute("dir", "ltr");
+        document.body.style.textAlign = "left";
+    }
+
+    document.querySelectorAll("[data-key]").forEach(element => {
+        translateElement(element, lang);
+    });
+}
 
 function translateElement(element, lang) {
     const key = element.getAttribute("data-key");
 
-    // If the element has no <a> tags (simple text), replace it directly
     if (!element.querySelector("a") && translations[lang][key]) {
         element.innerHTML = translations[lang][key];
         return;
     }
 
-    // Handle elements with <a> tags
     if (translations[lang][key]) {
         const originalLinks = Array.from(element.querySelectorAll("a"));
         const linkKeys = [
@@ -498,9 +549,8 @@ function translateElement(element, lang) {
             "link-eu-countries"
         ];
 
-        // Split the translated text by <br> tags
         const textParts = translations[lang][key].split(/<br\s*\/?>/i);
-        element.innerHTML = ""; // Clear current content
+        element.innerHTML = "";
         let currentLinkIndex = 0;
 
         textParts.forEach((part, index) => {
@@ -514,7 +564,6 @@ function translateElement(element, lang) {
                 }
             });
 
-            // Insert the translated <a> tag if it corresponds to this position
             if (currentLinkIndex < originalLinks.length) {
                 const originalLink = originalLinks[currentLinkIndex];
                 const newLink = document.createElement("a");
@@ -525,10 +574,9 @@ function translateElement(element, lang) {
                 currentLinkIndex++;
             }
 
-            // Add a <br> if this isn't the last part
             if (index < textParts.length - 1) {
                 element.appendChild(document.createElement("br"));
             }
-        });
-    }
+        });
+    }
 }
